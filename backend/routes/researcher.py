@@ -25,6 +25,7 @@ from models.search import (
 )
 from datetime import datetime, timedelta
 from services.researcher.search_service import get_search_service
+from services.researcher.recommendation_service import get_recommendation_service
 from database import supabase
 from middleware.auth import get_current_user
 
@@ -87,6 +88,54 @@ async def search_participants(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Search failed: {str(e)}"
+        )
+
+
+@router.get("/search-suggestions")
+async def get_search_suggestions(
+    limit: int = 4,
+    user = Depends(get_current_user)
+):
+    """
+    Get personalized search query suggestions for the current user.
+    
+    Analyzes user's search history and saved participants to generate
+    relevant query suggestions. Falls back to generic suggestions for new users.
+    
+    Args:
+        limit: Number of suggestions to return (default: 4)
+        user: Current authenticated user
+        
+    Returns:
+        Dict containing:
+            - suggestions: List of query strings
+            - is_personalized: Boolean indicating if suggestions are personalized
+            - based_on: Dict with counts of searches and saved participants
+    """
+    try:
+        logger.info(f"Generating search suggestions for user {user.id}")
+        
+        # Get recommendation service
+        recommendation_service = get_recommendation_service()
+        
+        # Generate suggestions
+        result = recommendation_service.get_search_suggestions(
+            user_id=user.id,
+            limit=limit
+        )
+        
+        logger.info(
+            f"Generated {len(result['suggestions'])} suggestions "
+            f"(personalized: {result['is_personalized']})"
+        )
+        
+        return result
+        
+    except Exception as e:
+        logger.error(f"Failed to generate search suggestions: {str(e)}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to generate search suggestions: {str(e)}"
         )
 
 

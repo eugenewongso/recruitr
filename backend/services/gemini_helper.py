@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # List of models to try in order of preference
 AVAILABLE_MODELS = [
-    'gemini-2.0-flash-exp',      # Latest experimental (fastest)
+    'gemini-2.0-flash',      # Latest experimental (fastest)
     'gemini-1.5-flash-latest',   # Latest stable flash
     'gemini-1.5-flash',          # Stable flash
     'gemini-1.5-pro',            # More capable

@@ -5,6 +5,7 @@ React + TypeScript + Vite frontend for Recruitr participant search platform.
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js 16+ and npm
 
 ### Installation
@@ -103,6 +104,10 @@ src/
 ├── context/                 # React Context
 │   └── AuthContext.tsx          # Auth state management
 │
+├── lib/                     # Utility functions
+│   ├── utils.ts                 # General utilities (cn helper)
+│   └── matchUtils.ts            # Match quality label utilities
+│
 ├── routes/                  # Route components
 │   ├── ProtectedRoute.tsx       # Auth protection
 │   ├── ResearcherRoutes.tsx     # Researcher routes
@@ -116,17 +121,32 @@ src/
 ## 🎨 Design System
 
 ### Colors
+
 - **Primary (Indigo)**: `#6366f1` - CTAs, buttons, highlights
 - **Secondary (Purple)**: `#8b5cf6` - Accents
 - **Success (Green)**: `#10b981` - Positive actions
 - **Background**: `#f9fafb` - Main background
 - **Card**: `#ffffff` - Cards and panels
 
+### Match Quality Labels
+
+Search results display categorical quality indicators instead of raw scores:
+
+- **Excellent Match** - Green badge (`bg-green-50`, `text-green-700`)
+- **Great Match** - Blue badge (`bg-blue-50`, `text-blue-700`)
+- **Good Match** - Teal badge (`bg-teal-50`, `text-teal-700`)
+- **Fair Match** - Amber badge (`bg-amber-50`, `text-amber-700`)
+- **Possible Match** - Gray badge (`bg-gray-50`, `text-gray-700`)
+
+_Implementation: `lib/matchUtils.ts` converts RRF scores to user-friendly labels_
+
 ### Typography
+
 - **Font**: Inter (Google Fonts)
 - **Sizes**: Tailwind default scale
 
 ### Components
+
 - Clean, modern design with Tailwind CSS
 - Responsive layouts (mobile, tablet, desktop)
 - Smooth animations and transitions
@@ -165,16 +185,19 @@ npm run build
 ## 🛠️ Development Tools
 
 ### Linting
+
 ```bash
 npm run lint
 ```
 
 ### Formatting
+
 ```bash
 npm run format
 ```
 
 ### Type Checking
+
 ```bash
 npx tsc --noEmit
 ```
@@ -182,6 +205,7 @@ npx tsc --noEmit
 ## 🔄 Adding New Features
 
 ### 1. Create Component
+
 ```typescript
 // src/components/researcher/NewComponent.tsx
 import React from 'react';
@@ -200,6 +224,7 @@ export const NewComponent: React.FC<NewComponentProps> = ({ }) => {
 ```
 
 ### 2. Create Page
+
 ```typescript
 // src/pages/researcher/NewPage.tsx
 import React from 'react';
@@ -216,6 +241,7 @@ export default NewPage;
 ```
 
 ### 3. Add Route
+
 ```typescript
 // In App.tsx
 <Route path="/researcher/new-page" element={<NewPage />} />
@@ -225,23 +251,25 @@ export default NewPage;
 
 ```typescript
 // Use the API services
-import { searchParticipants } from '@/services/api/researcher';
+import { searchParticipants } from "@/services/api/researcher";
 
 const results = await searchParticipants({
   query: "remote product managers",
-  limit: 10
+  limit: 10,
 });
 ```
 
 ## 🎯 Phase 1 vs Phase 2
 
 ### Phase 1 (Current) - Researcher-Only
+
 - ✅ Researcher authentication
 - ✅ Participant search
 - ✅ AI-generated outreach
 - ✅ Export functionality
 
 ### Phase 2 (Future) - Two-Sided Platform
+
 - 📦 Participant authentication
 - 📦 Profile management
 - 📦 Interview requests
@@ -260,12 +288,14 @@ Components for Phase 2 are already structured but commented out.
 ## 🐛 Troubleshooting
 
 ### Port Already in Use
+
 ```bash
 # Kill process on port 5173
 lsof -ti:5173 | xargs kill -9
 ```
 
 ### Module Not Found
+
 ```bash
 # Clear cache and reinstall
 rm -rf node_modules package-lock.json
@@ -273,6 +303,7 @@ npm install
 ```
 
 ### TypeScript Errors
+
 ```bash
 # Check types
 npx tsc --noEmit
@@ -281,6 +312,7 @@ npx tsc --noEmit
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
+
 ```bash
 # Install Vercel CLI
 npm i -g vercel
@@ -290,6 +322,7 @@ vercel
 ```
 
 ### Netlify
+
 ```bash
 # Install Netlify CLI
 npm i -g netlify-cli
@@ -300,4 +333,3 @@ netlify deploy --prod
 
 Build command: `npm run build`  
 Output directory: `dist`
-

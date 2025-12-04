@@ -23,6 +23,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useAuth } from "@/context/AuthContext";
 import { saveParticipant, unsaveParticipant } from "@/services/api/researcher";
+import { getMatchLabel } from "@/lib/matchUtils";
 
 interface Participant {
   id: string;
@@ -70,9 +71,7 @@ export const ParticipantCard: React.FC<ParticipantCardProps> = ({
     }
   };
 
-  const relevancePercent = participant.score
-    ? Math.round(participant.score * 100)
-    : 0;
+  const matchInfo = participant.score ? getMatchLabel(participant.score) : null;
 
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
@@ -88,10 +87,12 @@ export const ParticipantCard: React.FC<ParticipantCardProps> = ({
                 <span className="text-sm font-medium">{participant.role}</span>
               </div>
             </div>
-            {relevancePercent > 0 && (
-              <Badge className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors">
+            {matchInfo && (
+              <Badge
+                className={`${matchInfo.bgClass} ${matchInfo.colorClass} ${matchInfo.borderClass} border hover:opacity-90 transition-all font-semibold`}
+              >
                 <Sparkles className="h-3 w-3 mr-1 fill-current" />
-                {relevancePercent}% match
+                {matchInfo.label}
               </Badge>
             )}
           </div>

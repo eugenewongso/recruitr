@@ -1,0 +1,4954 @@
+[
+  {
+    "name": "Dakota Johnson",
+    "email": "dakota.johnson0@example.com",
+    "role": "Brand Strategist",
+    "industry": "Telecommunications",
+    "company_name": "ProLabs",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 13,
+    "experience_years": 5,
+    "tools": [
+      "Zoom",
+      "Asana",
+      "NetSuite",
+      "QuickBooks"
+    ],
+    "skills": [
+      "Brand Development",
+      "Healthcare Compliance",
+      "UI Design"
+    ],
+    "description": "Brand Strategist at ProLabs, a telecommunications company with 200-500 employees. Works in-office and manages a team of 13 people. 5 years of experience in the field. Uses Zoom, Asana, NetSuite for daily work. Specializes in Brand Development, Healthcare Compliance, UI Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Martinez",
+    "email": "morgan.martinez1@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "SaaS",
+    "company_name": "ProLabs",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 31,
+    "experience_years": 13,
+    "tools": [
+      "Google Meet",
+      "Power BI"
+    ],
+    "skills": [
+      "Process Improvement",
+      "Competitive Analysis",
+      "Audit",
+      "JavaScript",
+      "Social Media Marketing"
+    ],
+    "description": "Nurse Practitioner at ProLabs, a saas company with 50-200 employees. Works in-office and manages a team of 31 people. 13 years of experience in the field. Uses Google Meet, Power BI for daily work. Specializes in Process Improvement, Competitive Analysis, Audit.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Garcia",
+    "email": "dakota.garcia2@example.com",
+    "role": "Customer Success Manager",
+    "industry": "Productivity",
+    "company_name": "SmartLabs",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 19,
+    "experience_years": 14,
+    "tools": [
+      "Slack",
+      "Workday",
+      "Microsoft Office",
+      "Canva"
+    ],
+    "skills": [
+      "Logistics",
+      "SQL",
+      "Account Management"
+    ],
+    "description": "Customer Success Manager at SmartLabs, a productivity company with 10-50 employees. Works in-office and manages a team of 19 people. 14 years of experience in the field. Uses Slack, Workday, Microsoft Office for daily work. Specializes in Logistics, SQL, Account Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Taylor",
+    "email": "sage.taylor3@example.com",
+    "role": "Merchandiser",
+    "industry": "Manufacturing",
+    "company_name": "BuildSolutions",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 22,
+    "experience_years": 8,
+    "tools": [
+      "Slack",
+      "Oracle Financials",
+      "Figma",
+      "Bitbucket"
+    ],
+    "skills": [
+      "Account Management",
+      "Healthcare Compliance",
+      "Change Management"
+    ],
+    "description": "Merchandiser at BuildSolutions, a manufacturing company with 50-200 employees. Works remotely and manages a team of 22 people. 8 years of experience in the field. Uses Slack, Oracle Financials, Figma for daily work. Specializes in Account Management, Healthcare Compliance, Change Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Smith",
+    "email": "casey.smith4@example.com",
+    "role": "Operations Manager",
+    "industry": "Fintech",
+    "company_name": "CreateSoftware",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 15,
+    "experience_years": 10,
+    "tools": [
+      "Google Meet",
+      "Greenhouse",
+      "Mixpanel"
+    ],
+    "skills": [
+      "Risk Management",
+      "Process Improvement",
+      "Inventory Control"
+    ],
+    "description": "Operations Manager at CreateSoftware, a fintech company with 500-1000 employees. Works in-office and manages a team of 15 people. 10 years of experience in the field. Uses Google Meet, Greenhouse, Mixpanel for daily work. Specializes in Risk Management, Process Improvement, Inventory Control.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Chen",
+    "email": "skyler.chen5@example.com",
+    "role": "Community Organizer",
+    "industry": "Consumer Apps",
+    "company_name": "CreateInc",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 33,
+    "experience_years": 8,
+    "tools": [
+      "Zoom",
+      "Workday",
+      "Epic"
+    ],
+    "skills": [
+      "Prototyping",
+      "Roadmap Planning",
+      "A/B Testing",
+      "Supply Chain Management"
+    ],
+    "description": "Community Organizer at CreateInc, a consumer apps company with 50-200 employees. Works in-office and manages a team of 33 people. 8 years of experience in the field. Uses Zoom, Workday, Epic for daily work. Specializes in Prototyping, Roadmap Planning, A/B Testing.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Anderson",
+    "email": "jamie.anderson6@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "SaaS",
+    "company_name": "QuickSolutions",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 12,
+    "experience_years": 1,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Square"
+    ],
+    "skills": [
+      "Brand Development",
+      "Logistics",
+      "Negotiation",
+      "Strategic Planning"
+    ],
+    "description": "Nurse Practitioner at QuickSolutions, a saas company with 50-200 employees. Works remotely and manages a team of 12 people. 1 years of experience in the field. Uses Google Meet, Slack, Square for daily work. Specializes in Brand Development, Logistics, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Anderson",
+    "email": "alex.anderson7@example.com",
+    "role": "Business Analyst",
+    "industry": "SaaS",
+    "company_name": "SmartSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 8,
+    "experience_years": 15,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Tableau",
+      "Shopify",
+      "Monday.com"
+    ],
+    "skills": [
+      "Copywriting",
+      "Clinical Research",
+      "Budget Management",
+      "Logistics"
+    ],
+    "description": "Business Analyst at SmartSoftware, a saas company with 1-10 employees. Works remotely and manages a team of 8 people. 15 years of experience in the field. Uses Google Meet, Slack, Tableau for daily work. Specializes in Copywriting, Clinical Research, Budget Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Lee",
+    "email": "dakota.lee8@example.com",
+    "role": "Merchandiser",
+    "industry": "Manufacturing",
+    "company_name": "FastSystems",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 16,
+    "experience_years": 3,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "BambooHR"
+    ],
+    "skills": [
+      "Logistics",
+      "Budget Management",
+      "SQL",
+      "Supply Chain Management",
+      "Brand Development"
+    ],
+    "description": "Merchandiser at FastSystems, a manufacturing company with 1-10 employees. Works in-office and manages a team of 16 people. 3 years of experience in the field. Uses Zoom, Slack, BambooHR for daily work. Specializes in Logistics, Budget Management, SQL.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Smith",
+    "email": "morgan.smith9@example.com",
+    "role": "Customer Success Manager",
+    "industry": "Manufacturing",
+    "company_name": "QuickSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 42,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Moodle",
+      "Salesforce",
+      "NetSuite"
+    ],
+    "skills": [
+      "Communication",
+      "JavaScript",
+      "Social Media Marketing"
+    ],
+    "description": "Customer Success Manager at QuickSystems, a manufacturing company with 1000+ employees. Works remotely and manages a team of 42 people. 15 years of experience in the field. Uses Zoom, Slack, Moodle for daily work. Specializes in Communication, JavaScript, Social Media Marketing.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Lee",
+    "email": "taylor.lee10@example.com",
+    "role": "Curriculum Developer",
+    "industry": "Productivity",
+    "company_name": "SmartSystems",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 3,
+    "experience_years": 12,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Asana",
+      "Confluence",
+      "InVision"
+    ],
+    "skills": [
+      "Quality Assurance",
+      "Social Media Marketing",
+      "Supply Chain Management"
+    ],
+    "description": "Curriculum Developer at SmartSystems, a productivity company with 500-1000 employees. Works remotely and manages a team of 3 people. 12 years of experience in the field. Uses Zoom, Slack, Asana for daily work. Specializes in Quality Assurance, Social Media Marketing, Supply Chain Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Johnson",
+    "email": "rowan.johnson11@example.com",
+    "role": "Community Organizer",
+    "industry": "Healthcare",
+    "company_name": "BuildLabs",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 31,
+    "experience_years": 10,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Amplitude",
+      "Confluence"
+    ],
+    "skills": [
+      "UI Design",
+      "Social Media Marketing",
+      "Agile/Scrum"
+    ],
+    "description": "Community Organizer at BuildLabs, a healthcare company with 1000+ employees. Works remotely and manages a team of 31 people. 10 years of experience in the field. Uses Slack, Google Meet, Amplitude for daily work. Specializes in UI Design, Social Media Marketing, Agile/Scrum.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Thomas",
+    "email": "river.thomas12@example.com",
+    "role": "Financial Analyst",
+    "industry": "Developer Tools",
+    "company_name": "QuickSolutions",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 2,
+    "experience_years": 1,
+    "tools": [
+      "Zoom",
+      "InVision",
+      "GitLab",
+      "Microsoft Office"
+    ],
+    "skills": [
+      "Conflict Resolution",
+      "Prototyping",
+      "User Research"
+    ],
+    "description": "Financial Analyst at QuickSolutions, a developer tools company with 1-10 employees. Works remotely and manages a team of 2 people. 1 years of experience in the field. Uses Zoom, InVision, GitLab for daily work. Specializes in Conflict Resolution, Prototyping, User Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Garcia",
+    "email": "river.garcia13@example.com",
+    "role": "Merchandiser",
+    "industry": "SaaS",
+    "company_name": "FastInc",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 24,
+    "experience_years": 6,
+    "tools": [
+      "Google Meet",
+      "Workday"
+    ],
+    "skills": [
+      "Logistics",
+      "Project Management",
+      "Clinical Research"
+    ],
+    "description": "Merchandiser at FastInc, a saas company with 50-200 employees. Works in-office and manages a team of 24 people. 6 years of experience in the field. Uses Google Meet, Workday for daily work. Specializes in Logistics, Project Management, Clinical Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Patel",
+    "email": "jordan.patel14@example.com",
+    "role": "Investment Manager",
+    "industry": "Financial Services",
+    "company_name": "ProSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 22,
+    "experience_years": 12,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Asana"
+    ],
+    "skills": [
+      "Python",
+      "Curriculum Design",
+      "Roadmap Planning"
+    ],
+    "description": "Investment Manager at ProSoftware, a financial services company with 1-10 employees. Works remotely and manages a team of 22 people. 12 years of experience in the field. Uses Slack, Zoom, Asana for daily work. Specializes in Python, Curriculum Design, Roadmap Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Brown",
+    "email": "jordan.brown15@example.com",
+    "role": "Academic Advisor",
+    "industry": "Non-Profit",
+    "company_name": "QuickSystems",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 19,
+    "experience_years": 11,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Mailchimp",
+      "Workday"
+    ],
+    "skills": [
+      "Roadmap Planning",
+      "Market Research",
+      "Financial Modeling",
+      "UX Design",
+      "Risk Management"
+    ],
+    "description": "Academic Advisor at QuickSystems, a non-profit company with 1-10 employees. Works in-office and manages a team of 19 people. 11 years of experience in the field. Uses Google Meet, Slack, Mailchimp for daily work. Specializes in Roadmap Planning, Market Research, Financial Modeling.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Martinez",
+    "email": "emerson.martinez16@example.com",
+    "role": "UX Designer",
+    "industry": "Media & Publishing",
+    "company_name": "FastSolutions",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 21,
+    "experience_years": 3,
+    "tools": [
+      "Slack",
+      "Figma",
+      "Adobe XD",
+      "Zoom",
+      "Salesforce",
+      "Oracle Financials"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Logistics",
+      "UX Design",
+      "Quality Assurance",
+      "Strategic Planning"
+    ],
+    "description": "UX Designer at FastSolutions, a media & publishing company with 1000+ employees. Works remotely and manages a team of 21 people. 3 years of experience in the field. Uses Slack, Figma, Adobe XD for daily work. Specializes in Educational Technology, Logistics, UX Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Brown",
+    "email": "river.brown17@example.com",
+    "role": "Marketing Manager",
+    "industry": "Media & Publishing",
+    "company_name": "BuildLabs",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 27,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Salesforce",
+      "Google Analytics",
+      "QuickBooks",
+      "Zoom"
+    ],
+    "skills": [
+      "A/B Testing",
+      "Python",
+      "Copywriting"
+    ],
+    "description": "Marketing Manager at BuildLabs, a media & publishing company with 500-1000 employees. Works remotely and manages a team of 27 people. 12 years of experience in the field. Uses Google Meet, Slack, Salesforce for daily work. Specializes in A/B Testing, Python, Copywriting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Lee",
+    "email": "alex.lee18@example.com",
+    "role": "Instructional Designer",
+    "industry": "Telecommunications",
+    "company_name": "CreateInc",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 30,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Xero",
+      "Marketo"
+    ],
+    "skills": [
+      "Customer Retention",
+      "Tax Planning",
+      "JavaScript",
+      "Social Media Marketing",
+      "Logistics"
+    ],
+    "description": "Instructional Designer at CreateInc, a telecommunications company with 50-200 employees. Works remotely and manages a team of 30 people. 12 years of experience in the field. Uses Google Meet, Xero, Marketo for daily work. Specializes in Customer Retention, Tax Planning, JavaScript.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Johnson",
+    "email": "casey.johnson19@example.com",
+    "role": "Product Manager",
+    "industry": "Financial Services",
+    "company_name": "FastSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 26,
+    "experience_years": 13,
+    "tools": [
+      "Google Meet",
+      "Asana",
+      "Trello",
+      "Square",
+      "MEDITECH",
+      "NetSuite"
+    ],
+    "skills": [
+      "Customer Retention",
+      "Process Improvement",
+      "Budget Management"
+    ],
+    "description": "Product Manager at FastSoftware, a financial services company with 10-50 employees. Works remotely and manages a team of 26 people. 13 years of experience in the field. Uses Google Meet, Asana, Trello for daily work. Specializes in Customer Retention, Process Improvement, Budget Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Davis",
+    "email": "morgan.davis20@example.com",
+    "role": "Content Marketing Manager",
+    "industry": "Manufacturing",
+    "company_name": "BuildSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 46,
+    "experience_years": 15,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Square",
+      "Canvas"
+    ],
+    "skills": [
+      "Communication",
+      "Customer Retention",
+      "User Research"
+    ],
+    "description": "Content Marketing Manager at BuildSoftware, a manufacturing company with 1-10 employees. Works remotely and manages a team of 46 people. 15 years of experience in the field. Uses Slack, Google Meet, Square for daily work. Specializes in Communication, Customer Retention, User Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Thomas",
+    "email": "quinn.thomas21@example.com",
+    "role": "Product Manager",
+    "industry": "Education",
+    "company_name": "CreateInc",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 32,
+    "experience_years": 6,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Asana",
+      "Notion",
+      "NetSuite"
+    ],
+    "skills": [
+      "Process Improvement",
+      "Curriculum Design",
+      "Clinical Research"
+    ],
+    "description": "Product Manager at CreateInc, a education company with 1000+ employees. Works remotely and manages a team of 32 people. 6 years of experience in the field. Uses Google Meet, Zoom, Asana for daily work. Specializes in Process Improvement, Curriculum Design, Clinical Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Martinez",
+    "email": "emerson.martinez22@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "Real Estate",
+    "company_name": "ProTech",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 32,
+    "experience_years": 6,
+    "tools": [
+      "Slack",
+      "Epic",
+      "Notion",
+      "QuickBooks"
+    ],
+    "skills": [
+      "Financial Analysis",
+      "Budget Management",
+      "Educational Technology",
+      "Accounting",
+      "Graphic Design"
+    ],
+    "description": "Supply Chain Coordinator at ProTech, a real estate company with 1-10 employees. Works in-office and manages a team of 32 people. 6 years of experience in the field. Uses Slack, Epic, Notion for daily work. Specializes in Financial Analysis, Budget Management, Educational Technology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Jones",
+    "email": "avery.jones23@example.com",
+    "role": "Program Manager",
+    "industry": "Productivity",
+    "company_name": "CreateSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 32,
+    "experience_years": 6,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Airtable",
+      "Mixpanel"
+    ],
+    "skills": [
+      "Project Management",
+      "Healthcare Compliance",
+      "Accounting",
+      "Risk Management",
+      "Data Analysis"
+    ],
+    "description": "Program Manager at CreateSystems, a productivity company with 1000+ employees. Works remotely and manages a team of 32 people. 6 years of experience in the field. Uses Zoom, Google Meet, Airtable for daily work. Specializes in Project Management, Healthcare Compliance, Accounting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Rodriguez",
+    "email": "skyler.rodriguez24@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "Non-Profit",
+    "company_name": "CreateSystems",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 39,
+    "experience_years": 7,
+    "tools": [
+      "Zoom",
+      "Intercom",
+      "SAP"
+    ],
+    "skills": [
+      "Graphic Design",
+      "Agile/Scrum",
+      "Video Production",
+      "Educational Technology",
+      "User Research"
+    ],
+    "description": "Supply Chain Coordinator at CreateSystems, a non-profit company with 1-10 employees. Works remotely and manages a team of 39 people. 7 years of experience in the field. Uses Zoom, Intercom, SAP for daily work. Specializes in Graphic Design, Agile/Scrum, Video Production.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Rodriguez",
+    "email": "river.rodriguez25@example.com",
+    "role": "Community Organizer",
+    "industry": "Non-Profit",
+    "company_name": "ProInc",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 29,
+    "experience_years": 3,
+    "tools": [
+      "Zoom",
+      "Power BI"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Audit",
+      "Brand Development"
+    ],
+    "description": "Community Organizer at ProInc, a non-profit company with 500-1000 employees. Works remotely and manages a team of 29 people. 3 years of experience in the field. Uses Zoom, Power BI for daily work. Specializes in Educational Technology, Audit, Brand Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Williams",
+    "email": "casey.williams26@example.com",
+    "role": "Copywriter",
+    "industry": "E-commerce",
+    "company_name": "ProInc",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 36,
+    "experience_years": 7,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Cerner",
+      "Blackboard",
+      "Lever"
+    ],
+    "skills": [
+      "Supply Chain Management",
+      "SEO/SEM",
+      "Roadmap Planning",
+      "Assessment Development",
+      "Stakeholder Management"
+    ],
+    "description": "Copywriter at ProInc, a e-commerce company with 1000+ employees. Works remotely and manages a team of 36 people. 7 years of experience in the field. Uses Slack, Zoom, Cerner for daily work. Specializes in Supply Chain Management, SEO/SEM, Roadmap Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Rodriguez",
+    "email": "morgan.rodriguez27@example.com",
+    "role": "Program Director",
+    "industry": "E-commerce",
+    "company_name": "BuildTech",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 15,
+    "experience_years": 14,
+    "tools": [
+      "Zoom",
+      "Airtable",
+      "Microsoft Teams",
+      "GitHub"
+    ],
+    "skills": [
+      "Strategic Planning",
+      "Agile/Scrum",
+      "Account Management",
+      "Healthcare Compliance",
+      "Assessment Development"
+    ],
+    "description": "Program Director at BuildTech, a e-commerce company with 200-500 employees. Works remotely and manages a team of 15 people. 14 years of experience in the field. Uses Zoom, Airtable, Microsoft Teams for daily work. Specializes in Strategic Planning, Agile/Scrum, Account Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Davis",
+    "email": "river.davis28@example.com",
+    "role": "Account Manager",
+    "industry": "Retail",
+    "company_name": "ProSystems",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 13,
+    "experience_years": 2,
+    "tools": [
+      "Google Meet",
+      "Google Classroom"
+    ],
+    "skills": [
+      "SEO/SEM",
+      "User Research",
+      "Process Improvement"
+    ],
+    "description": "Account Manager at ProSystems, a retail company with 500-1000 employees. Works remotely and manages a team of 13 people. 2 years of experience in the field. Uses Google Meet, Google Classroom for daily work. Specializes in SEO/SEM, User Research, Process Improvement.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Rodriguez",
+    "email": "alex.rodriguez29@example.com",
+    "role": "Accountant",
+    "industry": "Marketing Tech",
+    "company_name": "SmartInc",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 15,
+    "experience_years": 10,
+    "tools": [
+      "Google Meet",
+      "Square",
+      "Shopify"
+    ],
+    "skills": [
+      "Tax Planning",
+      "Customer Retention",
+      "Account Management"
+    ],
+    "description": "Accountant at SmartInc, a marketing tech company with 500-1000 employees. Works in-office and manages a team of 15 people. 10 years of experience in the field. Uses Google Meet, Square, Shopify for daily work. Specializes in Tax Planning, Customer Retention, Account Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Jones",
+    "email": "sage.jones30@example.com",
+    "role": "Strategy Consultant",
+    "industry": "Education",
+    "company_name": "QuickLabs",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 22,
+    "experience_years": 3,
+    "tools": [
+      "Zoom",
+      "Canva",
+      "Airtable",
+      "Cerner"
+    ],
+    "skills": [
+      "Patient Care",
+      "JavaScript",
+      "Sales Strategy",
+      "Team Building"
+    ],
+    "description": "Strategy Consultant at QuickLabs, a education company with 500-1000 employees. Works in-office and manages a team of 22 people. 3 years of experience in the field. Uses Zoom, Canva, Airtable for daily work. Specializes in Patient Care, JavaScript, Sales Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Anderson",
+    "email": "quinn.anderson31@example.com",
+    "role": "Medical Director",
+    "industry": "Consulting",
+    "company_name": "CreateLabs",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 9,
+    "experience_years": 8,
+    "tools": [
+      "Zoom",
+      "Amplitude",
+      "Microsoft Teams"
+    ],
+    "skills": [
+      "Medical Terminology",
+      "Change Management",
+      "Leadership"
+    ],
+    "description": "Medical Director at CreateLabs, a consulting company with 50-200 employees. Works in-office and manages a team of 9 people. 8 years of experience in the field. Uses Zoom, Amplitude, Microsoft Teams for daily work. Specializes in Medical Terminology, Change Management, Leadership.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Smith",
+    "email": "skyler.smith32@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "Developer Tools",
+    "company_name": "QuickTech",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 29,
+    "experience_years": 4,
+    "tools": [
+      "Slack",
+      "Bitbucket",
+      "Confluence"
+    ],
+    "skills": [
+      "Supply Chain Management",
+      "UX Design",
+      "User Research",
+      "Risk Management"
+    ],
+    "description": "Nurse Practitioner at QuickTech, a developer tools company with 50-200 employees. Works in-office and manages a team of 29 people. 4 years of experience in the field. Uses Slack, Bitbucket, Confluence for daily work. Specializes in Supply Chain Management, UX Design, User Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Jones",
+    "email": "morgan.jones33@example.com",
+    "role": "Project Manager",
+    "industry": "Media & Publishing",
+    "company_name": "BuildSolutions",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 46,
+    "experience_years": 2,
+    "tools": [
+      "Google Meet",
+      "Microsoft Teams",
+      "Coda"
+    ],
+    "skills": [
+      "Curriculum Design",
+      "Accounting",
+      "Budget Management",
+      "Quality Assurance"
+    ],
+    "description": "Project Manager at BuildSolutions, a media & publishing company with 500-1000 employees. Works in-office and manages a team of 46 people. 2 years of experience in the field. Uses Google Meet, Microsoft Teams, Coda for daily work. Specializes in Curriculum Design, Accounting, Budget Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Patel",
+    "email": "jamie.patel34@example.com",
+    "role": "Creative Director",
+    "industry": "Consumer Apps",
+    "company_name": "ProSoftware",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 18,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Moodle",
+      "Blackboard"
+    ],
+    "skills": [
+      "Competitive Analysis",
+      "Strategic Planning",
+      "UI Design",
+      "Brand Development"
+    ],
+    "description": "Creative Director at ProSoftware, a consumer apps company with 50-200 employees. Works remotely and manages a team of 18 people. 10 years of experience in the field. Uses Zoom, Google Meet, Moodle for daily work. Specializes in Competitive Analysis, Strategic Planning, UI Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Anderson",
+    "email": "rowan.anderson35@example.com",
+    "role": "Healthcare Administrator",
+    "industry": "Media & Publishing",
+    "company_name": "SmartSoftware",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 25,
+    "experience_years": 4,
+    "tools": [
+      "Zoom",
+      "GitLab",
+      "SAP",
+      "Epic"
+    ],
+    "skills": [
+      "Change Management",
+      "Inventory Control",
+      "JavaScript"
+    ],
+    "description": "Healthcare Administrator at SmartSoftware, a media & publishing company with 1-10 employees. Works in-office and manages a team of 25 people. 4 years of experience in the field. Uses Zoom, GitLab, SAP for daily work. Specializes in Change Management, Inventory Control, JavaScript.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Smith",
+    "email": "dakota.smith36@example.com",
+    "role": "Creative Director",
+    "industry": "Consumer Apps",
+    "company_name": "FastSolutions",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 41,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "Bitbucket"
+    ],
+    "skills": [
+      "Communication",
+      "UI Design",
+      "Risk Management",
+      "Competitive Analysis"
+    ],
+    "description": "Creative Director at FastSolutions, a consumer apps company with 500-1000 employees. Works remotely and manages a team of 41 people. 11 years of experience in the field. Uses Zoom, Bitbucket for daily work. Specializes in Communication, UI Design, Risk Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Williams",
+    "email": "jordan.williams37@example.com",
+    "role": "Program Director",
+    "industry": "Consumer Apps",
+    "company_name": "SmartSolutions",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 8,
+    "experience_years": 15,
+    "tools": [
+      "Google Meet",
+      "Oracle Financials",
+      "BambooHR"
+    ],
+    "skills": [
+      "Clinical Research",
+      "Strategic Planning",
+      "Brand Development"
+    ],
+    "description": "Program Director at SmartSolutions, a consumer apps company with 500-1000 employees. Works in-office and manages a team of 8 people. 15 years of experience in the field. Uses Google Meet, Oracle Financials, BambooHR for daily work. Specializes in Clinical Research, Strategic Planning, Brand Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Garcia",
+    "email": "casey.garcia38@example.com",
+    "role": "Academic Advisor",
+    "industry": "Real Estate",
+    "company_name": "CreateSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 20,
+    "experience_years": 13,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Shopify"
+    ],
+    "skills": [
+      "Budget Management",
+      "Quality Assurance",
+      "Educational Technology",
+      "Sales Strategy",
+      "Financial Analysis"
+    ],
+    "description": "Academic Advisor at CreateSoftware, a real estate company with 1-10 employees. Works remotely and manages a team of 20 people. 13 years of experience in the field. Uses Slack, Google Meet, Shopify for daily work. Specializes in Budget Management, Quality Assurance, Educational Technology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Garcia",
+    "email": "river.garcia39@example.com",
+    "role": "Creative Director",
+    "industry": "Manufacturing",
+    "company_name": "SmartInc",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 42,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "Greenhouse",
+      "Microsoft Office",
+      "Google Workspace"
+    ],
+    "skills": [
+      "Prototyping",
+      "Medical Terminology",
+      "Roadmap Planning"
+    ],
+    "description": "Creative Director at SmartInc, a manufacturing company with 200-500 employees. Works remotely and manages a team of 42 people. 4 years of experience in the field. Uses Google Meet, Greenhouse, Microsoft Office for daily work. Specializes in Prototyping, Medical Terminology, Roadmap Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Johnson",
+    "email": "rowan.johnson40@example.com",
+    "role": "Creative Director",
+    "industry": "Telecommunications",
+    "company_name": "ProLabs",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 6,
+    "tools": [
+      "Google Meet",
+      "Microsoft Teams",
+      "Asana"
+    ],
+    "skills": [
+      "Quality Assurance",
+      "Budget Management",
+      "Medical Terminology",
+      "Educational Technology"
+    ],
+    "description": "Creative Director at ProLabs, a telecommunications company with 1000+ employees. Works remotely and manages a team of 28 people. 6 years of experience in the field. Uses Google Meet, Microsoft Teams, Asana for daily work. Specializes in Quality Assurance, Budget Management, Medical Terminology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Taylor",
+    "email": "alex.taylor41@example.com",
+    "role": "Curriculum Developer",
+    "industry": "Healthcare",
+    "company_name": "FastSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 7,
+    "experience_years": 1,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Sketch"
+    ],
+    "skills": [
+      "Relationship Building",
+      "Medical Terminology",
+      "Financial Modeling",
+      "Project Management",
+      "Graphic Design"
+    ],
+    "description": "Curriculum Developer at FastSystems, a healthcare company with 1000+ employees. Works remotely and manages a team of 7 people. 1 years of experience in the field. Uses Slack, Zoom, Sketch for daily work. Specializes in Relationship Building, Medical Terminology, Financial Modeling.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Brown",
+    "email": "emerson.brown42@example.com",
+    "role": "Account Manager",
+    "industry": "Developer Tools",
+    "company_name": "FastSoftware",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 2,
+    "experience_years": 7,
+    "tools": [
+      "Google Meet",
+      "HubSpot",
+      "Shopify"
+    ],
+    "skills": [
+      "Risk Management",
+      "User Research",
+      "Social Media Marketing",
+      "Data Analysis",
+      "Accounting"
+    ],
+    "description": "Account Manager at FastSoftware, a developer tools company with 500-1000 employees. Works in-office and manages a team of 2 people. 7 years of experience in the field. Uses Google Meet, HubSpot, Shopify for daily work. Specializes in Risk Management, User Research, Social Media Marketing.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Davis",
+    "email": "quinn.davis43@example.com",
+    "role": "Instructional Designer",
+    "industry": "Fintech",
+    "company_name": "SmartLabs",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 48,
+    "experience_years": 2,
+    "tools": [
+      "Google Meet",
+      "Epic",
+      "HubSpot",
+      "Mailchimp"
+    ],
+    "skills": [
+      "UI Design",
+      "Medical Terminology",
+      "Tax Planning",
+      "Python"
+    ],
+    "description": "Instructional Designer at SmartLabs, a fintech company with 1000+ employees. Works in-office and manages a team of 48 people. 2 years of experience in the field. Uses Google Meet, Epic, HubSpot for daily work. Specializes in UI Design, Medical Terminology, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Lee",
+    "email": "dakota.lee44@example.com",
+    "role": "Content Creator",
+    "industry": "Consumer Apps",
+    "company_name": "ProLabs",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 50,
+    "experience_years": 5,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Canva",
+      "Square",
+      "WooCommerce"
+    ],
+    "skills": [
+      "Data Analysis",
+      "Patient Care",
+      "Team Building"
+    ],
+    "description": "Content Creator at ProLabs, a consumer apps company with 200-500 employees. Works remotely and manages a team of 50 people. 5 years of experience in the field. Uses Slack, Google Meet, Canva for daily work. Specializes in Data Analysis, Patient Care, Team Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Anderson",
+    "email": "avery.anderson45@example.com",
+    "role": "Program Manager",
+    "industry": "Real Estate",
+    "company_name": "QuickSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 15,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Canvas",
+      "SAP",
+      "WooCommerce"
+    ],
+    "skills": [
+      "Stakeholder Management",
+      "Customer Retention",
+      "Video Production",
+      "Audit",
+      "Project Management"
+    ],
+    "description": "Program Manager at QuickSoftware, a real estate company with 1-10 employees. Works remotely and manages a team of 15 people. 9 years of experience in the field. Uses Zoom, Slack, Canvas for daily work. Specializes in Stakeholder Management, Customer Retention, Video Production.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Taylor",
+    "email": "riley.taylor46@example.com",
+    "role": "Store Manager",
+    "industry": "Pharmaceuticals",
+    "company_name": "ProSolutions",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 12,
+    "experience_years": 1,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Epic",
+      "Monday.com"
+    ],
+    "skills": [
+      "Change Management",
+      "Patient Care",
+      "Prototyping"
+    ],
+    "description": "Store Manager at ProSolutions, a pharmaceuticals company with 1-10 employees. Works in-office and manages a team of 12 people. 1 years of experience in the field. Uses Google Meet, Zoom, Epic for daily work. Specializes in Change Management, Patient Care, Prototyping.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Garcia",
+    "email": "jordan.garcia47@example.com",
+    "role": "Content Marketing Manager",
+    "industry": "E-commerce",
+    "company_name": "SmartInc",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 39,
+    "experience_years": 12,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Sketch",
+      "Google Classroom"
+    ],
+    "skills": [
+      "Stakeholder Management",
+      "Graphic Design",
+      "Relationship Building",
+      "Inventory Control"
+    ],
+    "description": "Content Marketing Manager at SmartInc, a e-commerce company with 500-1000 employees. Works remotely and manages a team of 39 people. 12 years of experience in the field. Uses Slack, Google Meet, Sketch for daily work. Specializes in Stakeholder Management, Graphic Design, Relationship Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Brown",
+    "email": "skyler.brown48@example.com",
+    "role": "Merchandiser",
+    "industry": "E-commerce",
+    "company_name": "BuildLabs",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 25,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams"
+    ],
+    "skills": [
+      "Content Strategy",
+      "Inventory Control",
+      "Quality Assurance"
+    ],
+    "description": "Merchandiser at BuildLabs, a e-commerce company with 200-500 employees. Works in-office and manages a team of 25 people. 11 years of experience in the field. Uses Zoom, Google Meet, Microsoft Teams for daily work. Specializes in Content Strategy, Inventory Control, Quality Assurance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Williams",
+    "email": "sage.williams49@example.com",
+    "role": "Clinical Coordinator",
+    "industry": "Financial Services",
+    "company_name": "BuildSystems",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 20,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Lever"
+    ],
+    "skills": [
+      "Clinical Research",
+      "Risk Management",
+      "Customer Retention"
+    ],
+    "description": "Clinical Coordinator at BuildSystems, a financial services company with 50-200 employees. Works in-office and manages a team of 20 people. 12 years of experience in the field. Uses Google Meet, Lever for daily work. Specializes in Clinical Research, Risk Management, Customer Retention.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Brown",
+    "email": "taylor.brown50@example.com",
+    "role": "Product Designer",
+    "industry": "Marketing Tech",
+    "company_name": "CreateSolutions",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 41,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "InVision",
+      "Adobe XD",
+      "Microsoft Office",
+      "WooCommerce"
+    ],
+    "skills": [
+      "Stakeholder Management",
+      "Budget Management",
+      "Data Analysis",
+      "Financial Modeling"
+    ],
+    "description": "Product Designer at CreateSolutions, a marketing tech company with 200-500 employees. Works in-office and manages a team of 41 people. 9 years of experience in the field. Uses Zoom, InVision, Adobe XD for daily work. Specializes in Stakeholder Management, Budget Management, Data Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Johnson",
+    "email": "rowan.johnson51@example.com",
+    "role": "Sales Manager",
+    "industry": "E-commerce",
+    "company_name": "CreateSystems",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 6,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "Intercom",
+      "Salesforce",
+      "Confluence",
+      "Notion"
+    ],
+    "skills": [
+      "Social Media Marketing",
+      "Sales Strategy",
+      "Data Analysis"
+    ],
+    "description": "Sales Manager at CreateSystems, a e-commerce company with 200-500 employees. Works remotely and manages a team of 6 people. 4 years of experience in the field. Uses Google Meet, Intercom, Salesforce for daily work. Specializes in Social Media Marketing, Sales Strategy, Data Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Davis",
+    "email": "avery.davis52@example.com",
+    "role": "Operations Manager",
+    "industry": "Consumer Apps",
+    "company_name": "ProSoftware",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 26,
+    "experience_years": 14,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Asana",
+      "Salesforce",
+      "Airtable"
+    ],
+    "skills": [
+      "User Research",
+      "Copywriting",
+      "Graphic Design",
+      "Patient Care",
+      "SQL"
+    ],
+    "description": "Operations Manager at ProSoftware, a consumer apps company with 1000+ employees. Works in-office and manages a team of 26 people. 14 years of experience in the field. Uses Zoom, Slack, Asana for daily work. Specializes in User Research, Copywriting, Graphic Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Rodriguez",
+    "email": "river.rodriguez53@example.com",
+    "role": "Program Manager",
+    "industry": "Non-Profit",
+    "company_name": "CreateLabs",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 25,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Salesforce"
+    ],
+    "skills": [
+      "Social Media Marketing",
+      "Business Development",
+      "UX Design"
+    ],
+    "description": "Program Manager at CreateLabs, a non-profit company with 10-50 employees. Works remotely and manages a team of 25 people. 10 years of experience in the field. Uses Zoom, Salesforce for daily work. Specializes in Social Media Marketing, Business Development, UX Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Brown",
+    "email": "quinn.brown54@example.com",
+    "role": "Academic Advisor",
+    "industry": "Telecommunications",
+    "company_name": "SmartSolutions",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 2,
+    "experience_years": 8,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Canvas",
+      "SAP",
+      "Jira"
+    ],
+    "skills": [
+      "Inventory Control",
+      "SQL",
+      "Patient Care",
+      "Prototyping",
+      "JavaScript"
+    ],
+    "description": "Academic Advisor at SmartSolutions, a telecommunications company with 50-200 employees. Works in-office and manages a team of 2 people. 8 years of experience in the field. Uses Slack, Google Meet, Canvas for daily work. Specializes in Inventory Control, SQL, Patient Care.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Miller",
+    "email": "casey.miller55@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "Fintech",
+    "company_name": "ProTech",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 26,
+    "experience_years": 1,
+    "tools": [
+      "Slack",
+      "HubSpot",
+      "Trello"
+    ],
+    "skills": [
+      "Team Building",
+      "Audit",
+      "UI Design",
+      "Process Improvement"
+    ],
+    "description": "Nurse Practitioner at ProTech, a fintech company with 200-500 employees. Works remotely and manages a team of 26 people. 1 years of experience in the field. Uses Slack, HubSpot, Trello for daily work. Specializes in Team Building, Audit, UI Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Chen",
+    "email": "quinn.chen56@example.com",
+    "role": "Medical Director",
+    "industry": "Hospitality",
+    "company_name": "SmartLabs",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 10,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Shopify"
+    ],
+    "skills": [
+      "Logistics",
+      "Sales Strategy",
+      "Change Management",
+      "Tax Planning"
+    ],
+    "description": "Medical Director at SmartLabs, a hospitality company with 50-200 employees. Works remotely and manages a team of 10 people. 9 years of experience in the field. Uses Google Meet, Slack, Shopify for daily work. Specializes in Logistics, Sales Strategy, Change Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Williams",
+    "email": "quinn.williams57@example.com",
+    "role": "Project Manager",
+    "industry": "Consulting",
+    "company_name": "FastTech",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 12,
+    "experience_years": 13,
+    "tools": [
+      "Google Meet",
+      "Notion"
+    ],
+    "skills": [
+      "Team Building",
+      "Clinical Research",
+      "Sales Strategy",
+      "Educational Technology",
+      "UX Design"
+    ],
+    "description": "Project Manager at FastTech, a consulting company with 200-500 employees. Works remotely and manages a team of 12 people. 13 years of experience in the field. Uses Google Meet, Notion for daily work. Specializes in Team Building, Clinical Research, Sales Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Davis",
+    "email": "cameron.davis58@example.com",
+    "role": "Clinical Coordinator",
+    "industry": "Non-Profit",
+    "company_name": "CreateInc",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 12,
+    "experience_years": 3,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Marketo",
+      "MEDITECH"
+    ],
+    "skills": [
+      "Leadership",
+      "Product Strategy",
+      "Content Strategy",
+      "Project Management",
+      "Supply Chain Management"
+    ],
+    "description": "Clinical Coordinator at CreateInc, a non-profit company with 1000+ employees. Works remotely and manages a team of 12 people. 3 years of experience in the field. Uses Google Meet, Slack, Marketo for daily work. Specializes in Leadership, Product Strategy, Content Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Miller",
+    "email": "riley.miller59@example.com",
+    "role": "Strategy Consultant",
+    "industry": "Real Estate",
+    "company_name": "QuickInc",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 11,
+    "experience_years": 14,
+    "tools": [
+      "Slack",
+      "Google Classroom",
+      "Figma",
+      "Coda"
+    ],
+    "skills": [
+      "Prototyping",
+      "Product Strategy",
+      "Stakeholder Management",
+      "Audit",
+      "Medical Terminology"
+    ],
+    "description": "Strategy Consultant at QuickInc, a real estate company with 200-500 employees. Works remotely and manages a team of 11 people. 14 years of experience in the field. Uses Slack, Google Classroom, Figma for daily work. Specializes in Prototyping, Product Strategy, Stakeholder Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Taylor",
+    "email": "river.taylor60@example.com",
+    "role": "Finance Manager",
+    "industry": "Hospitality",
+    "company_name": "SmartSolutions",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 20,
+    "experience_years": 1,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Google Workspace"
+    ],
+    "skills": [
+      "Change Management",
+      "A/B Testing",
+      "Customer Retention",
+      "Graphic Design",
+      "Conflict Resolution"
+    ],
+    "description": "Finance Manager at SmartSolutions, a hospitality company with 50-200 employees. Works in-office and manages a team of 20 people. 1 years of experience in the field. Uses Google Meet, Zoom, Google Workspace for daily work. Specializes in Change Management, A/B Testing, Customer Retention.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Lee",
+    "email": "riley.lee61@example.com",
+    "role": "Brand Manager",
+    "industry": "Retail",
+    "company_name": "QuickSolutions",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 45,
+    "experience_years": 2,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "GitLab"
+    ],
+    "skills": [
+      "Healthcare Compliance",
+      "Inventory Control",
+      "Prototyping",
+      "Curriculum Design"
+    ],
+    "description": "Brand Manager at QuickSolutions, a retail company with 10-50 employees. Works in-office and manages a team of 45 people. 2 years of experience in the field. Uses Slack, Zoom, GitLab for daily work. Specializes in Healthcare Compliance, Inventory Control, Prototyping.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Jones",
+    "email": "taylor.jones62@example.com",
+    "role": "Content Creator",
+    "industry": "Telecommunications",
+    "company_name": "FastTech",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 4,
+    "experience_years": 13,
+    "tools": [
+      "Zoom",
+      "Amplitude",
+      "Coda",
+      "Mixpanel"
+    ],
+    "skills": [
+      "Sales Strategy",
+      "UX Design",
+      "Quality Assurance",
+      "Risk Management"
+    ],
+    "description": "Content Creator at FastTech, a telecommunications company with 10-50 employees. Works remotely and manages a team of 4 people. 13 years of experience in the field. Uses Zoom, Amplitude, Coda for daily work. Specializes in Sales Strategy, UX Design, Quality Assurance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Jones",
+    "email": "sage.jones63@example.com",
+    "role": "Medical Director",
+    "industry": "Telecommunications",
+    "company_name": "CreateSystems",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 36,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Canva",
+      "Square",
+      "Epic"
+    ],
+    "skills": [
+      "Agile/Scrum",
+      "SQL",
+      "Video Production",
+      "Conflict Resolution",
+      "Accounting"
+    ],
+    "description": "Medical Director at CreateSystems, a telecommunications company with 200-500 employees. Works remotely and manages a team of 36 people. 15 years of experience in the field. Uses Zoom, Canva, Square for daily work. Specializes in Agile/Scrum, SQL, Video Production.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Miller",
+    "email": "taylor.miller64@example.com",
+    "role": "Academic Advisor",
+    "industry": "SaaS",
+    "company_name": "SmartInc",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 18,
+    "experience_years": 4,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Salesforce",
+      "Intercom"
+    ],
+    "skills": [
+      "User Research",
+      "Patient Care",
+      "Negotiation"
+    ],
+    "description": "Academic Advisor at SmartInc, a saas company with 1-10 employees. Works in-office and manages a team of 18 people. 4 years of experience in the field. Uses Slack, Zoom, Salesforce for daily work. Specializes in User Research, Patient Care, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Martinez",
+    "email": "jamie.martinez65@example.com",
+    "role": "Program Manager",
+    "industry": "Productivity",
+    "company_name": "FastTech",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 43,
+    "experience_years": 10,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Square"
+    ],
+    "skills": [
+      "Logistics",
+      "Video Production",
+      "Account Management",
+      "Competitive Analysis",
+      "Educational Technology"
+    ],
+    "description": "Program Manager at FastTech, a productivity company with 1-10 employees. Works in-office and manages a team of 43 people. 10 years of experience in the field. Uses Slack, Google Meet, Square for daily work. Specializes in Logistics, Video Production, Account Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Williams",
+    "email": "taylor.williams66@example.com",
+    "role": "Merchandiser",
+    "industry": "Telecommunications",
+    "company_name": "ProTech",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 35,
+    "experience_years": 4,
+    "tools": [
+      "Slack",
+      "Epic",
+      "Microsoft Office",
+      "ClickUp"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "Content Strategy",
+      "Risk Management",
+      "Tax Planning",
+      "Change Management"
+    ],
+    "description": "Merchandiser at ProTech, a telecommunications company with 50-200 employees. Works remotely and manages a team of 35 people. 4 years of experience in the field. Uses Slack, Epic, Microsoft Office for daily work. Specializes in Financial Modeling, Content Strategy, Risk Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Taylor",
+    "email": "quinn.taylor67@example.com",
+    "role": "Accountant",
+    "industry": "E-commerce",
+    "company_name": "ProSoftware",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 38,
+    "experience_years": 11,
+    "tools": [
+      "Google Meet",
+      "Square",
+      "GitHub"
+    ],
+    "skills": [
+      "SQL",
+      "Account Management",
+      "Communication",
+      "Quality Assurance",
+      "Supply Chain Management"
+    ],
+    "description": "Accountant at ProSoftware, a e-commerce company with 1000+ employees. Works in-office and manages a team of 38 people. 11 years of experience in the field. Uses Google Meet, Square, GitHub for daily work. Specializes in SQL, Account Management, Communication.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Rodriguez",
+    "email": "jamie.rodriguez68@example.com",
+    "role": "Finance Manager",
+    "industry": "Pharmaceuticals",
+    "company_name": "BuildSoftware",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 13,
+    "experience_years": 2,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "ClickUp"
+    ],
+    "skills": [
+      "Roadmap Planning",
+      "Agile/Scrum",
+      "Graphic Design"
+    ],
+    "description": "Finance Manager at BuildSoftware, a pharmaceuticals company with 10-50 employees. Works in-office and manages a team of 13 people. 2 years of experience in the field. Uses Slack, Zoom, ClickUp for daily work. Specializes in Roadmap Planning, Agile/Scrum, Graphic Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Jones",
+    "email": "avery.jones69@example.com",
+    "role": "Grant Writer",
+    "industry": "Hospitality",
+    "company_name": "ProSoftware",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 32,
+    "experience_years": 5,
+    "tools": [
+      "Google Meet",
+      "Greenhouse",
+      "QuickBooks"
+    ],
+    "skills": [
+      "Copywriting",
+      "Logistics",
+      "Quality Assurance",
+      "Accounting",
+      "Communication"
+    ],
+    "description": "Grant Writer at ProSoftware, a hospitality company with 1000+ employees. Works remotely and manages a team of 32 people. 5 years of experience in the field. Uses Google Meet, Greenhouse, QuickBooks for daily work. Specializes in Copywriting, Logistics, Quality Assurance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Garcia",
+    "email": "jamie.garcia70@example.com",
+    "role": "Product Manager",
+    "industry": "Developer Tools",
+    "company_name": "QuickTech",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 11,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Jira",
+      "Asana",
+      "NetSuite",
+      "Mailchimp",
+      "Salesforce"
+    ],
+    "skills": [
+      "User Research",
+      "Communication",
+      "Sales Strategy"
+    ],
+    "description": "Product Manager at QuickTech, a developer tools company with 50-200 employees. Works remotely and manages a team of 11 people. 10 years of experience in the field. Uses Zoom, Slack, Jira for daily work. Specializes in User Research, Communication, Sales Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Garcia",
+    "email": "emerson.garcia71@example.com",
+    "role": "Creative Director",
+    "industry": "Real Estate",
+    "company_name": "ProLabs",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 33,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Mailchimp",
+      "Coda",
+      "Figma"
+    ],
+    "skills": [
+      "Content Strategy",
+      "UX Design",
+      "Graphic Design",
+      "Leadership"
+    ],
+    "description": "Creative Director at ProLabs, a real estate company with 500-1000 employees. Works in-office and manages a team of 33 people. 15 years of experience in the field. Uses Zoom, Slack, Mailchimp for daily work. Specializes in Content Strategy, UX Design, Graphic Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Williams",
+    "email": "dakota.williams72@example.com",
+    "role": "Brand Strategist",
+    "industry": "E-commerce",
+    "company_name": "SmartInc",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 39,
+    "experience_years": 14,
+    "tools": [
+      "Google Meet",
+      "Salesforce"
+    ],
+    "skills": [
+      "Communication",
+      "Curriculum Design",
+      "Relationship Building",
+      "Quality Assurance",
+      "Financial Modeling"
+    ],
+    "description": "Brand Strategist at SmartInc, a e-commerce company with 200-500 employees. Works remotely and manages a team of 39 people. 14 years of experience in the field. Uses Google Meet, Salesforce for daily work. Specializes in Communication, Curriculum Design, Relationship Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Patel",
+    "email": "sage.patel73@example.com",
+    "role": "UX Designer",
+    "industry": "Productivity",
+    "company_name": "QuickInc",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 3,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "InVision",
+      "Figma",
+      "Square",
+      "Marketo"
+    ],
+    "skills": [
+      "Strategic Planning",
+      "Content Strategy",
+      "Data Analysis",
+      "Change Management",
+      "Clinical Research"
+    ],
+    "description": "UX Designer at QuickInc, a productivity company with 1-10 employees. Works in-office and manages a team of 3 people. 9 years of experience in the field. Uses Google Meet, InVision, Figma for daily work. Specializes in Strategic Planning, Content Strategy, Data Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Brown",
+    "email": "morgan.brown74@example.com",
+    "role": "Medical Director",
+    "industry": "Developer Tools",
+    "company_name": "QuickTech",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 28,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "SAP",
+      "Airtable",
+      "Square"
+    ],
+    "skills": [
+      "Budget Management",
+      "Business Development",
+      "UX Design"
+    ],
+    "description": "Medical Director at QuickTech, a developer tools company with 1000+ employees. Works in-office and manages a team of 28 people. 9 years of experience in the field. Uses Zoom, Slack, SAP for daily work. Specializes in Budget Management, Business Development, UX Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Smith",
+    "email": "cameron.smith75@example.com",
+    "role": "Operations Manager",
+    "industry": "Developer Tools",
+    "company_name": "ProSoftware",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 11,
+    "experience_years": 7,
+    "tools": [
+      "Slack",
+      "Microsoft Teams"
+    ],
+    "skills": [
+      "Roadmap Planning",
+      "Leadership",
+      "JavaScript",
+      "Agile/Scrum",
+      "Sales Strategy"
+    ],
+    "description": "Operations Manager at ProSoftware, a developer tools company with 500-1000 employees. Works remotely and manages a team of 11 people. 7 years of experience in the field. Uses Slack, Microsoft Teams for daily work. Specializes in Roadmap Planning, Leadership, JavaScript.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Brown",
+    "email": "rowan.brown76@example.com",
+    "role": "Copywriter",
+    "industry": "Fintech",
+    "company_name": "FastTech",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 36,
+    "experience_years": 12,
+    "tools": [
+      "Slack",
+      "BambooHR",
+      "Square",
+      "MEDITECH"
+    ],
+    "skills": [
+      "Healthcare Compliance",
+      "Educational Technology",
+      "SQL",
+      "Logistics",
+      "Customer Retention"
+    ],
+    "description": "Copywriter at FastTech, a fintech company with 500-1000 employees. Works in-office and manages a team of 36 people. 12 years of experience in the field. Uses Slack, BambooHR, Square for daily work. Specializes in Healthcare Compliance, Educational Technology, SQL.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Thomas",
+    "email": "riley.thomas77@example.com",
+    "role": "Finance Manager",
+    "industry": "Media & Publishing",
+    "company_name": "CreateLabs",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 4,
+    "experience_years": 3,
+    "tools": [
+      "Zoom",
+      "Microsoft Office"
+    ],
+    "skills": [
+      "Leadership",
+      "SEO/SEM",
+      "Financial Modeling"
+    ],
+    "description": "Finance Manager at CreateLabs, a media & publishing company with 200-500 employees. Works in-office and manages a team of 4 people. 3 years of experience in the field. Uses Zoom, Microsoft Office for daily work. Specializes in Leadership, SEO/SEM, Financial Modeling.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Miller",
+    "email": "cameron.miller78@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "Real Estate",
+    "company_name": "QuickInc",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 2,
+    "experience_years": 8,
+    "tools": [
+      "Slack",
+      "Workday",
+      "Microsoft Teams",
+      "Zoom"
+    ],
+    "skills": [
+      "Data Analysis",
+      "Agile/Scrum",
+      "Graphic Design",
+      "SEO/SEM"
+    ],
+    "description": "Nurse Practitioner at QuickInc, a real estate company with 1000+ employees. Works remotely and manages a team of 2 people. 8 years of experience in the field. Uses Slack, Workday, Microsoft Teams for daily work. Specializes in Data Analysis, Agile/Scrum, Graphic Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Lee",
+    "email": "jordan.lee79@example.com",
+    "role": "Creative Director",
+    "industry": "Manufacturing",
+    "company_name": "BuildSolutions",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 44,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Google Workspace",
+      "Lever"
+    ],
+    "skills": [
+      "SEO/SEM",
+      "Budget Management",
+      "Assessment Development",
+      "Communication",
+      "Content Strategy"
+    ],
+    "description": "Creative Director at BuildSolutions, a manufacturing company with 1-10 employees. Works in-office and manages a team of 44 people. 12 years of experience in the field. Uses Google Meet, Slack, Google Workspace for daily work. Specializes in SEO/SEM, Budget Management, Assessment Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Jones",
+    "email": "quinn.jones80@example.com",
+    "role": "Program Manager",
+    "industry": "Marketing Tech",
+    "company_name": "FastInc",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 5,
+    "experience_years": 2,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Adobe XD",
+      "Microsoft Office"
+    ],
+    "skills": [
+      "Competitive Analysis",
+      "Strategic Planning",
+      "Medical Terminology"
+    ],
+    "description": "Program Manager at FastInc, a marketing tech company with 200-500 employees. Works remotely and manages a team of 5 people. 2 years of experience in the field. Uses Slack, Google Meet, Adobe XD for daily work. Specializes in Competitive Analysis, Strategic Planning, Medical Terminology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Lee",
+    "email": "dakota.lee81@example.com",
+    "role": "Customer Success Manager",
+    "industry": "Manufacturing",
+    "company_name": "SmartLabs",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 14,
+    "experience_years": 8,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Oracle Financials",
+      "Google Classroom",
+      "Adobe XD"
+    ],
+    "skills": [
+      "Brand Development",
+      "Curriculum Design",
+      "Business Development"
+    ],
+    "description": "Customer Success Manager at SmartLabs, a manufacturing company with 10-50 employees. Works remotely and manages a team of 14 people. 8 years of experience in the field. Uses Slack, Zoom, Oracle Financials for daily work. Specializes in Brand Development, Curriculum Design, Business Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Davis",
+    "email": "jordan.davis82@example.com",
+    "role": "Sales Manager",
+    "industry": "Consumer Apps",
+    "company_name": "SmartInc",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 11,
+    "experience_years": 3,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Salesforce",
+      "HubSpot",
+      "Bitbucket",
+      "BambooHR"
+    ],
+    "skills": [
+      "User Research",
+      "Communication",
+      "Prototyping",
+      "Quality Assurance",
+      "SEO/SEM"
+    ],
+    "description": "Sales Manager at SmartInc, a consumer apps company with 500-1000 employees. Works in-office and manages a team of 11 people. 3 years of experience in the field. Uses Zoom, Google Meet, Salesforce for daily work. Specializes in User Research, Communication, Prototyping.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Garcia",
+    "email": "alex.garcia83@example.com",
+    "role": "Finance Manager",
+    "industry": "Manufacturing",
+    "company_name": "CreateSoftware",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 12,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Canva",
+      "Google Workspace"
+    ],
+    "skills": [
+      "Copywriting",
+      "Strategic Planning",
+      "Graphic Design",
+      "Business Development",
+      "Change Management"
+    ],
+    "description": "Finance Manager at CreateSoftware, a manufacturing company with 50-200 employees. Works remotely and manages a team of 12 people. 9 years of experience in the field. Uses Google Meet, Slack, Canva for daily work. Specializes in Copywriting, Strategic Planning, Graphic Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Johnson",
+    "email": "quinn.johnson84@example.com",
+    "role": "Program Director",
+    "industry": "Financial Services",
+    "company_name": "SmartTech",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 44,
+    "experience_years": 15,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Shopify",
+      "Workday",
+      "Airtable"
+    ],
+    "skills": [
+      "User Research",
+      "Brand Development",
+      "A/B Testing",
+      "Healthcare Compliance",
+      "SEO/SEM"
+    ],
+    "description": "Program Director at SmartTech, a financial services company with 1000+ employees. Works in-office and manages a team of 44 people. 15 years of experience in the field. Uses Google Meet, Slack, Shopify for daily work. Specializes in User Research, Brand Development, A/B Testing.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Anderson",
+    "email": "riley.anderson85@example.com",
+    "role": "Curriculum Developer",
+    "industry": "Manufacturing",
+    "company_name": "QuickInc",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 14,
+    "experience_years": 7,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Xero"
+    ],
+    "skills": [
+      "Roadmap Planning",
+      "Inventory Control",
+      "Accounting",
+      "Change Management",
+      "UX Design"
+    ],
+    "description": "Curriculum Developer at QuickInc, a manufacturing company with 10-50 employees. Works remotely and manages a team of 14 people. 7 years of experience in the field. Uses Google Meet, Zoom, Xero for daily work. Specializes in Roadmap Planning, Inventory Control, Accounting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Chen",
+    "email": "taylor.chen86@example.com",
+    "role": "Clinical Coordinator",
+    "industry": "E-commerce",
+    "company_name": "SmartSolutions",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 30,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Slack",
+      "Microsoft Teams",
+      "GitHub"
+    ],
+    "skills": [
+      "UX Design",
+      "Financial Analysis",
+      "A/B Testing"
+    ],
+    "description": "Clinical Coordinator at SmartSolutions, a e-commerce company with 500-1000 employees. Works remotely and manages a team of 30 people. 9 years of experience in the field. Uses Google Meet, Zoom, Slack for daily work. Specializes in UX Design, Financial Analysis, A/B Testing.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Anderson",
+    "email": "rowan.anderson87@example.com",
+    "role": "Strategy Consultant",
+    "industry": "Non-Profit",
+    "company_name": "QuickSoftware",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 48,
+    "experience_years": 15,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Adobe XD",
+      "Tableau",
+      "Microsoft Office"
+    ],
+    "skills": [
+      "UI Design",
+      "Social Media Marketing",
+      "Logistics",
+      "Communication"
+    ],
+    "description": "Strategy Consultant at QuickSoftware, a non-profit company with 1000+ employees. Works remotely and manages a team of 48 people. 15 years of experience in the field. Uses Slack, Google Meet, Adobe XD for daily work. Specializes in UI Design, Social Media Marketing, Logistics.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Brown",
+    "email": "casey.brown88@example.com",
+    "role": "Strategy Consultant",
+    "industry": "Manufacturing",
+    "company_name": "ProSolutions",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 37,
+    "experience_years": 3,
+    "tools": [
+      "Google Meet",
+      "SAP",
+      "Mixpanel"
+    ],
+    "skills": [
+      "Stakeholder Management",
+      "Relationship Building",
+      "Patient Care"
+    ],
+    "description": "Strategy Consultant at ProSolutions, a manufacturing company with 1000+ employees. Works remotely and manages a team of 37 people. 3 years of experience in the field. Uses Google Meet, SAP, Mixpanel for daily work. Specializes in Stakeholder Management, Relationship Building, Patient Care.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Anderson",
+    "email": "casey.anderson89@example.com",
+    "role": "Software Engineer",
+    "industry": "Retail",
+    "company_name": "BuildSolutions",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 23,
+    "experience_years": 10,
+    "tools": [
+      "Google Meet",
+      "Jira",
+      "GitHub",
+      "Workday"
+    ],
+    "skills": [
+      "Audit",
+      "SEO/SEM",
+      "Financial Analysis"
+    ],
+    "description": "Software Engineer at BuildSolutions, a retail company with 50-200 employees. Works in-office and manages a team of 23 people. 10 years of experience in the field. Uses Google Meet, Jira, GitHub for daily work. Specializes in Audit, SEO/SEM, Financial Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Davis",
+    "email": "taylor.davis90@example.com",
+    "role": "Project Manager",
+    "industry": "Enterprise Software",
+    "company_name": "CreateTech",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 19,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "QuickBooks"
+    ],
+    "skills": [
+      "Market Research",
+      "Inventory Control",
+      "Customer Retention"
+    ],
+    "description": "Project Manager at CreateTech, a enterprise software company with 500-1000 employees. Works remotely and manages a team of 19 people. 11 years of experience in the field. Uses Zoom, QuickBooks for daily work. Specializes in Market Research, Inventory Control, Customer Retention.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Lee",
+    "email": "quinn.lee91@example.com",
+    "role": "Community Organizer",
+    "industry": "Enterprise Software",
+    "company_name": "BuildSolutions",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 8,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "BambooHR",
+      "Figma",
+      "Salesforce"
+    ],
+    "skills": [
+      "Account Management",
+      "Assessment Development",
+      "Team Building"
+    ],
+    "description": "Community Organizer at BuildSolutions, a enterprise software company with 1-10 employees. Works in-office and manages a team of 8 people. 4 years of experience in the field. Uses Google Meet, BambooHR, Figma for daily work. Specializes in Account Management, Assessment Development, Team Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Patel",
+    "email": "riley.patel92@example.com",
+    "role": "Customer Success Manager",
+    "industry": "Real Estate",
+    "company_name": "ProSolutions",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 11,
+    "experience_years": 13,
+    "tools": [
+      "Google Meet",
+      "WooCommerce",
+      "HubSpot"
+    ],
+    "skills": [
+      "Market Research",
+      "Accounting",
+      "Healthcare Compliance"
+    ],
+    "description": "Customer Success Manager at ProSolutions, a real estate company with 1-10 employees. Works in-office and manages a team of 11 people. 13 years of experience in the field. Uses Google Meet, WooCommerce, HubSpot for daily work. Specializes in Market Research, Accounting, Healthcare Compliance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Martinez",
+    "email": "quinn.martinez93@example.com",
+    "role": "Account Manager",
+    "industry": "Media & Publishing",
+    "company_name": "QuickSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 39,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Workday"
+    ],
+    "skills": [
+      "User Research",
+      "Conflict Resolution",
+      "Quality Assurance"
+    ],
+    "description": "Account Manager at QuickSoftware, a media & publishing company with 10-50 employees. Works remotely and manages a team of 39 people. 9 years of experience in the field. Uses Zoom, Google Meet, Workday for daily work. Specializes in User Research, Conflict Resolution, Quality Assurance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Thomas",
+    "email": "cameron.thomas94@example.com",
+    "role": "Healthcare Administrator",
+    "industry": "Real Estate",
+    "company_name": "BuildSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 26,
+    "experience_years": 10,
+    "tools": [
+      "Google Meet",
+      "InVision"
+    ],
+    "skills": [
+      "Communication",
+      "Social Media Marketing",
+      "Product Strategy"
+    ],
+    "description": "Healthcare Administrator at BuildSystems, a real estate company with 1000+ employees. Works remotely and manages a team of 26 people. 10 years of experience in the field. Uses Google Meet, InVision for daily work. Specializes in Communication, Social Media Marketing, Product Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Johnson",
+    "email": "alex.johnson95@example.com",
+    "role": "Community Organizer",
+    "industry": "Education",
+    "company_name": "QuickSystems",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 23,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Cerner"
+    ],
+    "skills": [
+      "Video Production",
+      "UX Design",
+      "Healthcare Compliance",
+      "Quality Assurance",
+      "User Research"
+    ],
+    "description": "Community Organizer at QuickSystems, a education company with 500-1000 employees. Works in-office and manages a team of 23 people. 9 years of experience in the field. Uses Zoom, Slack, Cerner for daily work. Specializes in Video Production, UX Design, Healthcare Compliance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Jones",
+    "email": "morgan.jones96@example.com",
+    "role": "Financial Analyst",
+    "industry": "Consumer Apps",
+    "company_name": "BuildInc",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 18,
+    "experience_years": 3,
+    "tools": [
+      "Google Meet",
+      "Trello"
+    ],
+    "skills": [
+      "Relationship Building",
+      "Stakeholder Management",
+      "Team Building",
+      "Graphic Design",
+      "JavaScript"
+    ],
+    "description": "Financial Analyst at BuildInc, a consumer apps company with 200-500 employees. Works remotely and manages a team of 18 people. 3 years of experience in the field. Uses Google Meet, Trello for daily work. Specializes in Relationship Building, Stakeholder Management, Team Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Taylor",
+    "email": "jamie.taylor97@example.com",
+    "role": "Marketing Manager",
+    "industry": "Consumer Apps",
+    "company_name": "ProLabs",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 26,
+    "experience_years": 1,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "HubSpot",
+      "Google Analytics",
+      "Moodle",
+      "Tableau"
+    ],
+    "skills": [
+      "Relationship Building",
+      "Roadmap Planning",
+      "Budget Management"
+    ],
+    "description": "Marketing Manager at ProLabs, a consumer apps company with 1-10 employees. Works in-office and manages a team of 26 people. 1 years of experience in the field. Uses Zoom, Google Meet, HubSpot for daily work. Specializes in Relationship Building, Roadmap Planning, Budget Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Johnson",
+    "email": "morgan.johnson98@example.com",
+    "role": "Grant Writer",
+    "industry": "Manufacturing",
+    "company_name": "BuildSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 23,
+    "experience_years": 11,
+    "tools": [
+      "Slack",
+      "Sketch",
+      "WooCommerce"
+    ],
+    "skills": [
+      "Competitive Analysis",
+      "Assessment Development",
+      "Social Media Marketing"
+    ],
+    "description": "Grant Writer at BuildSoftware, a manufacturing company with 1-10 employees. Works remotely and manages a team of 23 people. 11 years of experience in the field. Uses Slack, Sketch, WooCommerce for daily work. Specializes in Competitive Analysis, Assessment Development, Social Media Marketing.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Patel",
+    "email": "cameron.patel99@example.com",
+    "role": "Grant Writer",
+    "industry": "Fintech",
+    "company_name": "BuildSystems",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 5,
+    "experience_years": 12,
+    "tools": [
+      "Zoom",
+      "Cerner"
+    ],
+    "skills": [
+      "Medical Terminology",
+      "SEO/SEM",
+      "Tax Planning",
+      "Inventory Control"
+    ],
+    "description": "Grant Writer at BuildSystems, a fintech company with 1000+ employees. Works in-office and manages a team of 5 people. 12 years of experience in the field. Uses Zoom, Cerner for daily work. Specializes in Medical Terminology, SEO/SEM, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Lee",
+    "email": "river.lee100@example.com",
+    "role": "Clinical Coordinator",
+    "industry": "Telecommunications",
+    "company_name": "BuildSolutions",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 16,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "InVision"
+    ],
+    "skills": [
+      "Medical Terminology",
+      "Patient Care",
+      "Video Production"
+    ],
+    "description": "Clinical Coordinator at BuildSolutions, a telecommunications company with 50-200 employees. Works remotely and manages a team of 16 people. 10 years of experience in the field. Uses Zoom, Google Meet, InVision for daily work. Specializes in Medical Terminology, Patient Care, Video Production.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Davis",
+    "email": "rowan.davis101@example.com",
+    "role": "Healthcare Administrator",
+    "industry": "Consulting",
+    "company_name": "CreateLabs",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 33,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "SAP",
+      "Adobe XD"
+    ],
+    "skills": [
+      "Risk Management",
+      "Conflict Resolution",
+      "Assessment Development"
+    ],
+    "description": "Healthcare Administrator at CreateLabs, a consulting company with 50-200 employees. Works in-office and manages a team of 33 people. 11 years of experience in the field. Uses Zoom, SAP, Adobe XD for daily work. Specializes in Risk Management, Conflict Resolution, Assessment Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Martinez",
+    "email": "morgan.martinez102@example.com",
+    "role": "Marketing Manager",
+    "industry": "Non-Profit",
+    "company_name": "BuildTech",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 27,
+    "experience_years": 13,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Google Analytics",
+      "HubSpot",
+      "NetSuite"
+    ],
+    "skills": [
+      "UI Design",
+      "Process Improvement",
+      "Medical Terminology",
+      "Stakeholder Management"
+    ],
+    "description": "Marketing Manager at BuildTech, a non-profit company with 500-1000 employees. Works remotely and manages a team of 27 people. 13 years of experience in the field. Uses Google Meet, Zoom, Google Analytics for daily work. Specializes in UI Design, Process Improvement, Medical Terminology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Martinez",
+    "email": "cameron.martinez103@example.com",
+    "role": "Instructional Designer",
+    "industry": "Developer Tools",
+    "company_name": "FastSolutions",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 39,
+    "experience_years": 1,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Salesforce",
+      "Asana",
+      "HubSpot"
+    ],
+    "skills": [
+      "SEO/SEM",
+      "Brand Development",
+      "Relationship Building"
+    ],
+    "description": "Instructional Designer at FastSolutions, a developer tools company with 500-1000 employees. Works remotely and manages a team of 39 people. 1 years of experience in the field. Uses Slack, Google Meet, Salesforce for daily work. Specializes in SEO/SEM, Brand Development, Relationship Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Rodriguez",
+    "email": "emerson.rodriguez104@example.com",
+    "role": "Copywriter",
+    "industry": "Enterprise Software",
+    "company_name": "ProTech",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 8,
+    "experience_years": 13,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "MEDITECH",
+      "Coda"
+    ],
+    "skills": [
+      "Change Management",
+      "Educational Technology",
+      "Competitive Analysis"
+    ],
+    "description": "Copywriter at ProTech, a enterprise software company with 50-200 employees. Works remotely and manages a team of 8 people. 13 years of experience in the field. Uses Slack, Zoom, MEDITECH for daily work. Specializes in Change Management, Educational Technology, Competitive Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Patel",
+    "email": "sage.patel105@example.com",
+    "role": "Academic Advisor",
+    "industry": "Hospitality",
+    "company_name": "CreateSystems",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 41,
+    "experience_years": 2,
+    "tools": [
+      "Google Meet",
+      "WooCommerce",
+      "Trello"
+    ],
+    "skills": [
+      "Team Building",
+      "Supply Chain Management",
+      "Customer Retention",
+      "SQL",
+      "Graphic Design"
+    ],
+    "description": "Academic Advisor at CreateSystems, a hospitality company with 10-50 employees. Works remotely and manages a team of 41 people. 2 years of experience in the field. Uses Google Meet, WooCommerce, Trello for daily work. Specializes in Team Building, Supply Chain Management, Customer Retention.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Thomas",
+    "email": "quinn.thomas106@example.com",
+    "role": "Business Analyst",
+    "industry": "Pharmaceuticals",
+    "company_name": "SmartInc",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 34,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Square"
+    ],
+    "skills": [
+      "Roadmap Planning",
+      "Audit",
+      "SEO/SEM"
+    ],
+    "description": "Business Analyst at SmartInc, a pharmaceuticals company with 50-200 employees. Works remotely and manages a team of 34 people. 15 years of experience in the field. Uses Zoom, Square for daily work. Specializes in Roadmap Planning, Audit, SEO/SEM.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Rodriguez",
+    "email": "alex.rodriguez107@example.com",
+    "role": "Account Manager",
+    "industry": "Pharmaceuticals",
+    "company_name": "CreateSolutions",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 19,
+    "experience_years": 3,
+    "tools": [
+      "Slack",
+      "Google Workspace",
+      "Intercom",
+      "SAP"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Curriculum Design",
+      "Patient Care",
+      "Team Building"
+    ],
+    "description": "Account Manager at CreateSolutions, a pharmaceuticals company with 10-50 employees. Works in-office and manages a team of 19 people. 3 years of experience in the field. Uses Slack, Google Workspace, Intercom for daily work. Specializes in Educational Technology, Curriculum Design, Patient Care.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Williams",
+    "email": "dakota.williams108@example.com",
+    "role": "Clinical Coordinator",
+    "industry": "Marketing Tech",
+    "company_name": "BuildSolutions",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 10,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Jira",
+      "Mailchimp",
+      "Canva"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "Sales Strategy",
+      "Audit"
+    ],
+    "description": "Clinical Coordinator at BuildSolutions, a marketing tech company with 500-1000 employees. Works in-office and manages a team of 10 people. 12 years of experience in the field. Uses Google Meet, Jira, Mailchimp for daily work. Specializes in Financial Modeling, Sales Strategy, Audit.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Jones",
+    "email": "jordan.jones109@example.com",
+    "role": "Inventory Manager",
+    "industry": "Non-Profit",
+    "company_name": "FastInc",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 27,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "QuickBooks"
+    ],
+    "skills": [
+      "Customer Retention",
+      "JavaScript",
+      "Negotiation",
+      "Logistics"
+    ],
+    "description": "Inventory Manager at FastInc, a non-profit company with 50-200 employees. Works remotely and manages a team of 27 people. 10 years of experience in the field. Uses Zoom, Google Meet, QuickBooks for daily work. Specializes in Customer Retention, JavaScript, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Johnson",
+    "email": "avery.johnson110@example.com",
+    "role": "Account Manager",
+    "industry": "Productivity",
+    "company_name": "FastTech",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 34,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Adobe XD",
+      "Workday",
+      "Airtable"
+    ],
+    "skills": [
+      "UI Design",
+      "Audit",
+      "Clinical Research"
+    ],
+    "description": "Account Manager at FastTech, a productivity company with 200-500 employees. Works remotely and manages a team of 34 people. 10 years of experience in the field. Uses Zoom, Google Meet, Adobe XD for daily work. Specializes in UI Design, Audit, Clinical Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Lee",
+    "email": "dakota.lee111@example.com",
+    "role": "Creative Director",
+    "industry": "Pharmaceuticals",
+    "company_name": "SmartSystems",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 9,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "GitLab",
+      "Salesforce",
+      "Mixpanel"
+    ],
+    "skills": [
+      "Negotiation",
+      "Business Development",
+      "Team Building",
+      "Tax Planning"
+    ],
+    "description": "Creative Director at SmartSystems, a pharmaceuticals company with 500-1000 employees. Works remotely and manages a team of 9 people. 15 years of experience in the field. Uses Zoom, GitLab, Salesforce for daily work. Specializes in Negotiation, Business Development, Team Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Rodriguez",
+    "email": "emerson.rodriguez112@example.com",
+    "role": "Store Manager",
+    "industry": "Pharmaceuticals",
+    "company_name": "QuickLabs",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 47,
+    "experience_years": 8,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Mailchimp"
+    ],
+    "skills": [
+      "Copywriting",
+      "Communication",
+      "Tax Planning",
+      "Product Strategy",
+      "Project Management"
+    ],
+    "description": "Store Manager at QuickLabs, a pharmaceuticals company with 10-50 employees. Works remotely and manages a team of 47 people. 8 years of experience in the field. Uses Zoom, Google Meet, Mailchimp for daily work. Specializes in Copywriting, Communication, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Rodriguez",
+    "email": "sage.rodriguez113@example.com",
+    "role": "Community Organizer",
+    "industry": "Pharmaceuticals",
+    "company_name": "ProTech",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 22,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "Asana"
+    ],
+    "skills": [
+      "Data Analysis",
+      "Tax Planning",
+      "Sales Strategy",
+      "Copywriting",
+      "User Research"
+    ],
+    "description": "Community Organizer at ProTech, a pharmaceuticals company with 10-50 employees. Works in-office and manages a team of 22 people. 9 years of experience in the field. Uses Google Meet, Asana for daily work. Specializes in Data Analysis, Tax Planning, Sales Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Williams",
+    "email": "riley.williams114@example.com",
+    "role": "Brand Manager",
+    "industry": "Pharmaceuticals",
+    "company_name": "SmartSolutions",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 40,
+    "experience_years": 3,
+    "tools": [
+      "Slack",
+      "Mixpanel",
+      "Canva",
+      "HubSpot"
+    ],
+    "skills": [
+      "Agile/Scrum",
+      "Assessment Development",
+      "Medical Terminology"
+    ],
+    "description": "Brand Manager at SmartSolutions, a pharmaceuticals company with 50-200 employees. Works remotely and manages a team of 40 people. 3 years of experience in the field. Uses Slack, Mixpanel, Canva for daily work. Specializes in Agile/Scrum, Assessment Development, Medical Terminology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Garcia",
+    "email": "sage.garcia115@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "E-commerce",
+    "company_name": "BuildSoftware",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 9,
+    "experience_years": 14,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "InVision",
+      "Mailchimp"
+    ],
+    "skills": [
+      "A/B Testing",
+      "User Research",
+      "Prototyping"
+    ],
+    "description": "Nurse Practitioner at BuildSoftware, a e-commerce company with 500-1000 employees. Works remotely and manages a team of 9 people. 14 years of experience in the field. Uses Zoom, Google Meet, InVision for daily work. Specializes in A/B Testing, User Research, Prototyping.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Johnson",
+    "email": "jamie.johnson116@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "Telecommunications",
+    "company_name": "ProInc",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 23,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Trello"
+    ],
+    "skills": [
+      "Market Research",
+      "Clinical Research",
+      "Patient Care"
+    ],
+    "description": "Supply Chain Coordinator at ProInc, a telecommunications company with 1000+ employees. Works in-office and manages a team of 23 people. 9 years of experience in the field. Uses Google Meet, Zoom, Trello for daily work. Specializes in Market Research, Clinical Research, Patient Care.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Patel",
+    "email": "river.patel117@example.com",
+    "role": "Data Scientist",
+    "industry": "Developer Tools",
+    "company_name": "SmartLabs",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 5,
+    "experience_years": 2,
+    "tools": [
+      "Slack",
+      "SQL",
+      "Jupyter",
+      "Google Meet",
+      "Lever"
+    ],
+    "skills": [
+      "User Research",
+      "Brand Development",
+      "Agile/Scrum",
+      "Project Management"
+    ],
+    "description": "Data Scientist at SmartLabs, a developer tools company with 10-50 employees. Works in-office and manages a team of 5 people. 2 years of experience in the field. Uses Slack, SQL, Jupyter for daily work. Specializes in User Research, Brand Development, Agile/Scrum.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Smith",
+    "email": "cameron.smith118@example.com",
+    "role": "Brand Strategist",
+    "industry": "Healthcare",
+    "company_name": "ProTech",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 50,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "Google Workspace",
+      "Mailchimp",
+      "SAP"
+    ],
+    "skills": [
+      "A/B Testing",
+      "Brand Development",
+      "Stakeholder Management",
+      "Quality Assurance",
+      "Project Management"
+    ],
+    "description": "Brand Strategist at ProTech, a healthcare company with 1-10 employees. Works remotely and manages a team of 50 people. 4 years of experience in the field. Uses Google Meet, Google Workspace, Mailchimp for daily work. Specializes in A/B Testing, Brand Development, Stakeholder Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Martinez",
+    "email": "riley.martinez119@example.com",
+    "role": "Finance Manager",
+    "industry": "Manufacturing",
+    "company_name": "ProSoftware",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 17,
+    "experience_years": 4,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Intercom"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "JavaScript",
+      "Python",
+      "Video Production"
+    ],
+    "description": "Finance Manager at ProSoftware, a manufacturing company with 500-1000 employees. Works remotely and manages a team of 17 people. 4 years of experience in the field. Uses Slack, Zoom, Intercom for daily work. Specializes in Financial Modeling, JavaScript, Python.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Johnson",
+    "email": "river.johnson120@example.com",
+    "role": "Data Scientist",
+    "industry": "Productivity",
+    "company_name": "ProSystems",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 11,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "SQL",
+      "Jupyter",
+      "Figma",
+      "Microsoft Office"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Video Production",
+      "Budget Management"
+    ],
+    "description": "Data Scientist at ProSystems, a productivity company with 1-10 employees. Works remotely and manages a team of 28 people. 11 years of experience in the field. Uses Slack, Google Meet, SQL for daily work. Specializes in Educational Technology, Video Production, Budget Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Anderson",
+    "email": "emerson.anderson121@example.com",
+    "role": "Brand Strategist",
+    "industry": "Education",
+    "company_name": "BuildLabs",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 10,
+    "experience_years": 6,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "QuickBooks",
+      "Shopify",
+      "NetSuite"
+    ],
+    "skills": [
+      "Patient Care",
+      "Audit",
+      "Supply Chain Management",
+      "Medical Terminology"
+    ],
+    "description": "Brand Strategist at BuildLabs, a education company with 200-500 employees. Works remotely and manages a team of 10 people. 6 years of experience in the field. Uses Slack, Zoom, QuickBooks for daily work. Specializes in Patient Care, Audit, Supply Chain Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Anderson",
+    "email": "alex.anderson122@example.com",
+    "role": "Academic Advisor",
+    "industry": "Real Estate",
+    "company_name": "QuickLabs",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 6,
+    "experience_years": 12,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Google Workspace",
+      "Bitbucket",
+      "SAP"
+    ],
+    "skills": [
+      "Account Management",
+      "Logistics",
+      "Medical Terminology",
+      "Healthcare Compliance",
+      "Conflict Resolution"
+    ],
+    "description": "Academic Advisor at QuickLabs, a real estate company with 200-500 employees. Works remotely and manages a team of 6 people. 12 years of experience in the field. Uses Zoom, Google Meet, Google Workspace for daily work. Specializes in Account Management, Logistics, Medical Terminology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Jones",
+    "email": "morgan.jones123@example.com",
+    "role": "Brand Manager",
+    "industry": "Consulting",
+    "company_name": "SmartLabs",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 13,
+    "experience_years": 9,
+    "tools": [
+      "Slack",
+      "Google Analytics",
+      "Coda"
+    ],
+    "skills": [
+      "Conflict Resolution",
+      "JavaScript",
+      "Strategic Planning",
+      "Communication",
+      "Relationship Building"
+    ],
+    "description": "Brand Manager at SmartLabs, a consulting company with 50-200 employees. Works in-office and manages a team of 13 people. 9 years of experience in the field. Uses Slack, Google Analytics, Coda for daily work. Specializes in Conflict Resolution, JavaScript, Strategic Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Johnson",
+    "email": "rowan.johnson124@example.com",
+    "role": "Operations Manager",
+    "industry": "E-commerce",
+    "company_name": "FastSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 14,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Shopify",
+      "Notion",
+      "Workday"
+    ],
+    "skills": [
+      "UX Design",
+      "Competitive Analysis",
+      "Negotiation",
+      "Educational Technology",
+      "Conflict Resolution"
+    ],
+    "description": "Operations Manager at FastSoftware, a e-commerce company with 10-50 employees. Works remotely and manages a team of 28 people. 14 years of experience in the field. Uses Slack, Google Meet, Shopify for daily work. Specializes in UX Design, Competitive Analysis, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Anderson",
+    "email": "sage.anderson125@example.com",
+    "role": "Product Manager",
+    "industry": "Media & Publishing",
+    "company_name": "BuildSoftware",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 33,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "Trello",
+      "Jira",
+      "Asana"
+    ],
+    "skills": [
+      "Sales Strategy",
+      "Brand Development",
+      "Logistics",
+      "Medical Terminology",
+      "Conflict Resolution"
+    ],
+    "description": "Product Manager at BuildSoftware, a media & publishing company with 500-1000 employees. Works remotely and manages a team of 33 people. 9 years of experience in the field. Uses Zoom, Trello, Jira for daily work. Specializes in Sales Strategy, Brand Development, Logistics.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Garcia",
+    "email": "morgan.garcia126@example.com",
+    "role": "Program Manager",
+    "industry": "Consulting",
+    "company_name": "SmartTech",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 32,
+    "experience_years": 7,
+    "tools": [
+      "Slack",
+      "Sketch",
+      "Mailchimp",
+      "Tableau"
+    ],
+    "skills": [
+      "SQL",
+      "Clinical Research",
+      "Conflict Resolution"
+    ],
+    "description": "Program Manager at SmartTech, a consulting company with 50-200 employees. Works remotely and manages a team of 32 people. 7 years of experience in the field. Uses Slack, Sketch, Mailchimp for daily work. Specializes in SQL, Clinical Research, Conflict Resolution.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Patel",
+    "email": "riley.patel127@example.com",
+    "role": "Program Manager",
+    "industry": "Developer Tools",
+    "company_name": "CreateSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 40,
+    "experience_years": 6,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Moodle",
+      "Microsoft Teams"
+    ],
+    "skills": [
+      "Risk Management",
+      "Prototyping",
+      "Patient Care"
+    ],
+    "description": "Program Manager at CreateSoftware, a developer tools company with 10-50 employees. Works remotely and manages a team of 40 people. 6 years of experience in the field. Uses Google Meet, Zoom, Moodle for daily work. Specializes in Risk Management, Prototyping, Patient Care.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Patel",
+    "email": "alex.patel128@example.com",
+    "role": "Product Manager",
+    "industry": "Non-Profit",
+    "company_name": "CreateSolutions",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 14,
+    "experience_years": 1,
+    "tools": [
+      "Zoom",
+      "Jira",
+      "Asana",
+      "Tableau"
+    ],
+    "skills": [
+      "Market Research",
+      "Strategic Planning",
+      "Process Improvement",
+      "Social Media Marketing",
+      "Quality Assurance"
+    ],
+    "description": "Product Manager at CreateSolutions, a non-profit company with 1-10 employees. Works remotely and manages a team of 14 people. 1 years of experience in the field. Uses Zoom, Jira, Asana for daily work. Specializes in Market Research, Strategic Planning, Process Improvement.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Davis",
+    "email": "alex.davis129@example.com",
+    "role": "Business Analyst",
+    "industry": "Healthcare",
+    "company_name": "ProSystems",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 32,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "Amplitude"
+    ],
+    "skills": [
+      "Curriculum Design",
+      "Process Improvement",
+      "Product Strategy"
+    ],
+    "description": "Business Analyst at ProSystems, a healthcare company with 10-50 employees. Works remotely and manages a team of 32 people. 4 years of experience in the field. Uses Google Meet, Amplitude for daily work. Specializes in Curriculum Design, Process Improvement, Product Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Martinez",
+    "email": "quinn.martinez130@example.com",
+    "role": "Academic Advisor",
+    "industry": "Telecommunications",
+    "company_name": "CreateInc",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 14,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Workday",
+      "Sketch",
+      "Moodle"
+    ],
+    "skills": [
+      "Conflict Resolution",
+      "Sales Strategy",
+      "Risk Management"
+    ],
+    "description": "Academic Advisor at CreateInc, a telecommunications company with 1-10 employees. Works remotely and manages a team of 28 people. 14 years of experience in the field. Uses Zoom, Google Meet, Workday for daily work. Specializes in Conflict Resolution, Sales Strategy, Risk Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Anderson",
+    "email": "taylor.anderson131@example.com",
+    "role": "Healthcare Administrator",
+    "industry": "Developer Tools",
+    "company_name": "BuildTech",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 43,
+    "experience_years": 12,
+    "tools": [
+      "Zoom",
+      "Cerner",
+      "Microsoft Teams",
+      "Shopify"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Relationship Building",
+      "Brand Development"
+    ],
+    "description": "Healthcare Administrator at BuildTech, a developer tools company with 1000+ employees. Works in-office and manages a team of 43 people. 12 years of experience in the field. Uses Zoom, Cerner, Microsoft Teams for daily work. Specializes in Educational Technology, Relationship Building, Brand Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Lee",
+    "email": "emerson.lee132@example.com",
+    "role": "Engineering Manager",
+    "industry": "Developer Tools",
+    "company_name": "BuildSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 15,
+    "experience_years": 2,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "GitLab",
+      "GitHub",
+      "Adobe XD"
+    ],
+    "skills": [
+      "A/B Testing",
+      "Account Management",
+      "Conflict Resolution",
+      "Strategic Planning",
+      "Communication"
+    ],
+    "description": "Engineering Manager at BuildSoftware, a developer tools company with 10-50 employees. Works remotely and manages a team of 15 people. 2 years of experience in the field. Uses Slack, Zoom, GitLab for daily work. Specializes in A/B Testing, Account Management, Conflict Resolution.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Anderson",
+    "email": "skyler.anderson133@example.com",
+    "role": "Financial Analyst",
+    "industry": "Manufacturing",
+    "company_name": "FastTech",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 3,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Google Classroom"
+    ],
+    "skills": [
+      "Healthcare Compliance",
+      "JavaScript",
+      "UI Design",
+      "Change Management",
+      "Business Development"
+    ],
+    "description": "Financial Analyst at FastTech, a manufacturing company with 200-500 employees. Works in-office and manages a team of 3 people. 15 years of experience in the field. Uses Zoom, Google Classroom for daily work. Specializes in Healthcare Compliance, JavaScript, UI Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Rodriguez",
+    "email": "riley.rodriguez134@example.com",
+    "role": "Brand Manager",
+    "industry": "Education",
+    "company_name": "FastTech",
+    "company_size": "10-50",
+    "remote": false,
+    "team_size": 10,
+    "experience_years": 3,
+    "tools": [
+      "Slack",
+      "Salesforce",
+      "Blackboard"
+    ],
+    "skills": [
+      "Inventory Control",
+      "Tax Planning",
+      "Assessment Development",
+      "Healthcare Compliance",
+      "Business Development"
+    ],
+    "description": "Brand Manager at FastTech, a education company with 10-50 employees. Works in-office and manages a team of 10 people. 3 years of experience in the field. Uses Slack, Salesforce, Blackboard for daily work. Specializes in Inventory Control, Tax Planning, Assessment Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Miller",
+    "email": "rowan.miller135@example.com",
+    "role": "Financial Analyst",
+    "industry": "Consumer Apps",
+    "company_name": "CreateSoftware",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 15,
+    "tools": [
+      "Slack",
+      "Workday",
+      "MEDITECH",
+      "Notion"
+    ],
+    "skills": [
+      "Video Production",
+      "Python",
+      "Financial Analysis",
+      "Team Building",
+      "Curriculum Design"
+    ],
+    "description": "Financial Analyst at CreateSoftware, a consumer apps company with 200-500 employees. Works remotely and manages a team of 28 people. 15 years of experience in the field. Uses Slack, Workday, MEDITECH for daily work. Specializes in Video Production, Python, Financial Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Patel",
+    "email": "emerson.patel136@example.com",
+    "role": "Copywriter",
+    "industry": "Marketing Tech",
+    "company_name": "BuildSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 9,
+    "experience_years": 8,
+    "tools": [
+      "Slack",
+      "Mixpanel",
+      "GitHub",
+      "GitLab"
+    ],
+    "skills": [
+      "Social Media Marketing",
+      "Agile/Scrum",
+      "Tax Planning",
+      "Negotiation",
+      "Competitive Analysis"
+    ],
+    "description": "Copywriter at BuildSoftware, a marketing tech company with 1-10 employees. Works remotely and manages a team of 9 people. 8 years of experience in the field. Uses Slack, Mixpanel, GitHub for daily work. Specializes in Social Media Marketing, Agile/Scrum, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Anderson",
+    "email": "casey.anderson137@example.com",
+    "role": "Product Designer",
+    "industry": "Real Estate",
+    "company_name": "FastSoftware",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 38,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Sketch",
+      "Figma",
+      "Google Workspace",
+      "Intercom",
+      "Shopify"
+    ],
+    "skills": [
+      "Market Research",
+      "SEO/SEM",
+      "Assessment Development",
+      "Agile/Scrum",
+      "A/B Testing"
+    ],
+    "description": "Product Designer at FastSoftware, a real estate company with 1000+ employees. Works in-office and manages a team of 38 people. 12 years of experience in the field. Uses Google Meet, Slack, Sketch for daily work. Specializes in Market Research, SEO/SEM, Assessment Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Martinez",
+    "email": "cameron.martinez138@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "Fintech",
+    "company_name": "SmartLabs",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 7,
+    "experience_years": 10,
+    "tools": [
+      "Zoom",
+      "Shopify",
+      "Google Analytics"
+    ],
+    "skills": [
+      "Agile/Scrum",
+      "Stakeholder Management",
+      "Prototyping",
+      "Negotiation",
+      "Patient Care"
+    ],
+    "description": "Nurse Practitioner at SmartLabs, a fintech company with 500-1000 employees. Works remotely and manages a team of 7 people. 10 years of experience in the field. Uses Zoom, Shopify, Google Analytics for daily work. Specializes in Agile/Scrum, Stakeholder Management, Prototyping.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Jones",
+    "email": "emerson.jones139@example.com",
+    "role": "Healthcare Administrator",
+    "industry": "Manufacturing",
+    "company_name": "SmartSystems",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 20,
+    "experience_years": 6,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "InVision",
+      "WooCommerce",
+      "Confluence"
+    ],
+    "skills": [
+      "Logistics",
+      "Curriculum Design",
+      "Change Management",
+      "Accounting",
+      "Financial Modeling"
+    ],
+    "description": "Healthcare Administrator at SmartSystems, a manufacturing company with 1-10 employees. Works remotely and manages a team of 20 people. 6 years of experience in the field. Uses Zoom, Google Meet, InVision for daily work. Specializes in Logistics, Curriculum Design, Change Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Smith",
+    "email": "skyler.smith140@example.com",
+    "role": "Nurse Practitioner",
+    "industry": "Consumer Apps",
+    "company_name": "FastSolutions",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 23,
+    "experience_years": 7,
+    "tools": [
+      "Slack",
+      "Microsoft Teams"
+    ],
+    "skills": [
+      "Brand Development",
+      "Healthcare Compliance",
+      "Assessment Development"
+    ],
+    "description": "Nurse Practitioner at FastSolutions, a consumer apps company with 1000+ employees. Works remotely and manages a team of 23 people. 7 years of experience in the field. Uses Slack, Microsoft Teams for daily work. Specializes in Brand Development, Healthcare Compliance, Assessment Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Taylor",
+    "email": "riley.taylor141@example.com",
+    "role": "Clinical Coordinator",
+    "industry": "Enterprise Software",
+    "company_name": "BuildTech",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 9,
+    "experience_years": 2,
+    "tools": [
+      "Slack",
+      "Greenhouse",
+      "Mailchimp"
+    ],
+    "skills": [
+      "UX Design",
+      "Financial Analysis",
+      "Prototyping"
+    ],
+    "description": "Clinical Coordinator at BuildTech, a enterprise software company with 1-10 employees. Works remotely and manages a team of 9 people. 2 years of experience in the field. Uses Slack, Greenhouse, Mailchimp for daily work. Specializes in UX Design, Financial Analysis, Prototyping.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Brown",
+    "email": "rowan.brown142@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "Healthcare",
+    "company_name": "QuickSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 42,
+    "experience_years": 2,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Jira"
+    ],
+    "skills": [
+      "A/B Testing",
+      "Audit",
+      "Accounting"
+    ],
+    "description": "Supply Chain Coordinator at QuickSoftware, a healthcare company with 1-10 employees. Works remotely and manages a team of 42 people. 2 years of experience in the field. Uses Zoom, Google Meet, Jira for daily work. Specializes in A/B Testing, Audit, Accounting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Johnson",
+    "email": "jamie.johnson143@example.com",
+    "role": "Product Manager",
+    "industry": "Developer Tools",
+    "company_name": "BuildTech",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 47,
+    "experience_years": 4,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Jira",
+      "Asana",
+      "Google Workspace"
+    ],
+    "skills": [
+      "SQL",
+      "Account Management",
+      "User Research",
+      "Stakeholder Management"
+    ],
+    "description": "Product Manager at BuildTech, a developer tools company with 1000+ employees. Works in-office and manages a team of 47 people. 4 years of experience in the field. Uses Zoom, Google Meet, Jira for daily work. Specializes in SQL, Account Management, User Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Williams",
+    "email": "riley.williams144@example.com",
+    "role": "Sales Manager",
+    "industry": "Media & Publishing",
+    "company_name": "BuildSolutions",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 38,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Salesforce",
+      "Intercom",
+      "Google Classroom",
+      "GitLab",
+      "Marketo"
+    ],
+    "skills": [
+      "Relationship Building",
+      "UI Design",
+      "Account Management"
+    ],
+    "description": "Sales Manager at BuildSolutions, a media & publishing company with 500-1000 employees. Works in-office and manages a team of 38 people. 12 years of experience in the field. Uses Google Meet, Salesforce, Intercom for daily work. Specializes in Relationship Building, UI Design, Account Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Davis",
+    "email": "river.davis145@example.com",
+    "role": "Academic Advisor",
+    "industry": "Education",
+    "company_name": "ProSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 29,
+    "experience_years": 1,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "SAP",
+      "Confluence",
+      "Sketch"
+    ],
+    "skills": [
+      "A/B Testing",
+      "Roadmap Planning",
+      "Negotiation",
+      "Relationship Building"
+    ],
+    "description": "Academic Advisor at ProSystems, a education company with 1000+ employees. Works remotely and manages a team of 29 people. 1 years of experience in the field. Uses Google Meet, Slack, SAP for daily work. Specializes in A/B Testing, Roadmap Planning, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Williams",
+    "email": "dakota.williams146@example.com",
+    "role": "Data Scientist",
+    "industry": "SaaS",
+    "company_name": "ProSolutions",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 12,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Python",
+      "SQL",
+      "Square"
+    ],
+    "skills": [
+      "Account Management",
+      "Graphic Design",
+      "Conflict Resolution",
+      "Strategic Planning",
+      "Product Strategy"
+    ],
+    "description": "Data Scientist at ProSolutions, a saas company with 1-10 employees. Works remotely and manages a team of 28 people. 12 years of experience in the field. Uses Zoom, Google Meet, Python for daily work. Specializes in Account Management, Graphic Design, Conflict Resolution.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Miller",
+    "email": "casey.miller147@example.com",
+    "role": "Development Director",
+    "industry": "Media & Publishing",
+    "company_name": "ProSystems",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 39,
+    "experience_years": 7,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "InVision",
+      "Coda",
+      "BambooHR"
+    ],
+    "skills": [
+      "Quality Assurance",
+      "Patient Care",
+      "Content Strategy"
+    ],
+    "description": "Development Director at ProSystems, a media & publishing company with 1000+ employees. Works in-office and manages a team of 39 people. 7 years of experience in the field. Uses Zoom, Slack, InVision for daily work. Specializes in Quality Assurance, Patient Care, Content Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Jones",
+    "email": "riley.jones148@example.com",
+    "role": "Data Scientist",
+    "industry": "SaaS",
+    "company_name": "BuildSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 25,
+    "experience_years": 11,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "SQL",
+      "Python",
+      "Cerner"
+    ],
+    "skills": [
+      "Customer Retention",
+      "Budget Management",
+      "Conflict Resolution"
+    ],
+    "description": "Data Scientist at BuildSystems, a saas company with 1000+ employees. Works remotely and manages a team of 25 people. 11 years of experience in the field. Uses Slack, Google Meet, SQL for daily work. Specializes in Customer Retention, Budget Management, Conflict Resolution.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Garcia",
+    "email": "casey.garcia149@example.com",
+    "role": "Engineering Manager",
+    "industry": "Consumer Apps",
+    "company_name": "CreateSoftware",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 39,
+    "experience_years": 4,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Jira",
+      "GitHub",
+      "Marketo"
+    ],
+    "skills": [
+      "Strategic Planning",
+      "User Research",
+      "Audit"
+    ],
+    "description": "Engineering Manager at CreateSoftware, a consumer apps company with 1000+ employees. Works remotely and manages a team of 39 people. 4 years of experience in the field. Uses Slack, Google Meet, Jira for daily work. Specializes in Strategic Planning, User Research, Audit.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Chen",
+    "email": "cameron.chen150@example.com",
+    "role": "Brand Manager",
+    "industry": "Fintech",
+    "company_name": "QuickSolutions",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 38,
+    "experience_years": 1,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "BambooHR",
+      "Google Meet",
+      "Power BI"
+    ],
+    "skills": [
+      "Audit",
+      "Accounting",
+      "Content Strategy",
+      "Medical Terminology"
+    ],
+    "description": "Brand Manager at QuickSolutions, a fintech company with 1-10 employees. Works remotely and manages a team of 38 people. 1 years of experience in the field. Uses Slack, Zoom, BambooHR for daily work. Specializes in Audit, Accounting, Content Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Brown",
+    "email": "casey.brown151@example.com",
+    "role": "Grant Writer",
+    "industry": "Retail",
+    "company_name": "SmartSoftware",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 48,
+    "experience_years": 6,
+    "tools": [
+      "Google Meet",
+      "Greenhouse"
+    ],
+    "skills": [
+      "Data Analysis",
+      "Inventory Control",
+      "Conflict Resolution"
+    ],
+    "description": "Grant Writer at SmartSoftware, a retail company with 50-200 employees. Works remotely and manages a team of 48 people. 6 years of experience in the field. Uses Google Meet, Greenhouse for daily work. Specializes in Data Analysis, Inventory Control, Conflict Resolution.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Miller",
+    "email": "emerson.miller152@example.com",
+    "role": "Copywriter",
+    "industry": "Retail",
+    "company_name": "QuickSoftware",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 27,
+    "experience_years": 3,
+    "tools": [
+      "Google Meet",
+      "GitHub",
+      "Blackboard",
+      "Oracle Financials"
+    ],
+    "skills": [
+      "Content Strategy",
+      "Prototyping",
+      "Competitive Analysis",
+      "Roadmap Planning"
+    ],
+    "description": "Copywriter at QuickSoftware, a retail company with 1000+ employees. Works remotely and manages a team of 27 people. 3 years of experience in the field. Uses Google Meet, GitHub, Blackboard for daily work. Specializes in Content Strategy, Prototyping, Competitive Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Patel",
+    "email": "emerson.patel153@example.com",
+    "role": "Grant Writer",
+    "industry": "Telecommunications",
+    "company_name": "ProSolutions",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 3,
+    "experience_years": 10,
+    "tools": [
+      "Slack",
+      "Microsoft Office",
+      "QuickBooks",
+      "NetSuite"
+    ],
+    "skills": [
+      "Brand Development",
+      "Patient Care",
+      "Product Strategy",
+      "Roadmap Planning"
+    ],
+    "description": "Grant Writer at ProSolutions, a telecommunications company with 50-200 employees. Works remotely and manages a team of 3 people. 10 years of experience in the field. Uses Slack, Microsoft Office, QuickBooks for daily work. Specializes in Brand Development, Patient Care, Product Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Williams",
+    "email": "quinn.williams154@example.com",
+    "role": "Copywriter",
+    "industry": "Hospitality",
+    "company_name": "QuickSoftware",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 10,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Google Classroom"
+    ],
+    "skills": [
+      "Roadmap Planning",
+      "Product Strategy",
+      "Leadership",
+      "Sales Strategy"
+    ],
+    "description": "Copywriter at QuickSoftware, a hospitality company with 200-500 employees. Works remotely and manages a team of 10 people. 4 years of experience in the field. Uses Google Meet, Zoom, Google Classroom for daily work. Specializes in Roadmap Planning, Product Strategy, Leadership.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Lee",
+    "email": "dakota.lee155@example.com",
+    "role": "Business Analyst",
+    "industry": "Consumer Apps",
+    "company_name": "BuildTech",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 27,
+    "experience_years": 13,
+    "tools": [
+      "Google Meet",
+      "Bitbucket"
+    ],
+    "skills": [
+      "Accounting",
+      "Customer Retention",
+      "Assessment Development"
+    ],
+    "description": "Business Analyst at BuildTech, a consumer apps company with 500-1000 employees. Works remotely and manages a team of 27 people. 13 years of experience in the field. Uses Google Meet, Bitbucket for daily work. Specializes in Accounting, Customer Retention, Assessment Development.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Miller",
+    "email": "cameron.miller156@example.com",
+    "role": "Creative Director",
+    "industry": "Telecommunications",
+    "company_name": "QuickSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 18,
+    "experience_years": 6,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Amplitude",
+      "Coda",
+      "Marketo"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Assessment Development",
+      "Competitive Analysis"
+    ],
+    "description": "Creative Director at QuickSoftware, a telecommunications company with 10-50 employees. Works remotely and manages a team of 18 people. 6 years of experience in the field. Uses Zoom, Google Meet, Amplitude for daily work. Specializes in Educational Technology, Assessment Development, Competitive Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Lee",
+    "email": "riley.lee157@example.com",
+    "role": "Software Engineer",
+    "industry": "Marketing Tech",
+    "company_name": "CreateLabs",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 13,
+    "experience_years": 9,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "GitLab",
+      "Jira",
+      "Airtable",
+      "NetSuite",
+      "GitHub"
+    ],
+    "skills": [
+      "Patient Care",
+      "Social Media Marketing",
+      "Inventory Control"
+    ],
+    "description": "Software Engineer at CreateLabs, a marketing tech company with 1-10 employees. Works in-office and manages a team of 13 people. 9 years of experience in the field. Uses Zoom, Google Meet, GitLab for daily work. Specializes in Patient Care, Social Media Marketing, Inventory Control.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Miller",
+    "email": "riley.miller158@example.com",
+    "role": "Data Scientist",
+    "industry": "Developer Tools",
+    "company_name": "BuildSolutions",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 19,
+    "experience_years": 7,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Python",
+      "Jupyter",
+      "Microsoft Office",
+      "Asana"
+    ],
+    "skills": [
+      "SQL",
+      "Inventory Control",
+      "Project Management"
+    ],
+    "description": "Data Scientist at BuildSolutions, a developer tools company with 1-10 employees. Works in-office and manages a team of 19 people. 7 years of experience in the field. Uses Google Meet, Slack, Python for daily work. Specializes in SQL, Inventory Control, Project Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Thomas",
+    "email": "emerson.thomas159@example.com",
+    "role": "Content Creator",
+    "industry": "Financial Services",
+    "company_name": "CreateTech",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 25,
+    "experience_years": 6,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "GitLab",
+      "Amplitude"
+    ],
+    "skills": [
+      "Logistics",
+      "User Research",
+      "Accounting",
+      "Product Strategy"
+    ],
+    "description": "Content Creator at CreateTech, a financial services company with 200-500 employees. Works remotely and manages a team of 25 people. 6 years of experience in the field. Uses Google Meet, Slack, GitLab for daily work. Specializes in Logistics, User Research, Accounting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Martinez",
+    "email": "skyler.martinez160@example.com",
+    "role": "Sales Manager",
+    "industry": "SaaS",
+    "company_name": "QuickSoftware",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 8,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "HubSpot",
+      "Salesforce",
+      "Amplitude"
+    ],
+    "skills": [
+      "Inventory Control",
+      "Python",
+      "Leadership",
+      "Strategic Planning",
+      "Change Management"
+    ],
+    "description": "Sales Manager at QuickSoftware, a saas company with 500-1000 employees. Works in-office and manages a team of 8 people. 11 years of experience in the field. Uses Zoom, HubSpot, Salesforce for daily work. Specializes in Inventory Control, Python, Leadership.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Alex Taylor",
+    "email": "alex.taylor161@example.com",
+    "role": "Copywriter",
+    "industry": "Pharmaceuticals",
+    "company_name": "FastSolutions",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 50,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Epic"
+    ],
+    "skills": [
+      "Competitive Analysis",
+      "Video Production",
+      "Inventory Control",
+      "Clinical Research"
+    ],
+    "description": "Copywriter at FastSolutions, a pharmaceuticals company with 500-1000 employees. Works remotely and manages a team of 50 people. 15 years of experience in the field. Uses Zoom, Slack, Epic for daily work. Specializes in Competitive Analysis, Video Production, Inventory Control.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Rodriguez",
+    "email": "river.rodriguez162@example.com",
+    "role": "Marketing Manager",
+    "industry": "Financial Services",
+    "company_name": "SmartSystems",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 28,
+    "experience_years": 15,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "HubSpot",
+      "Google Analytics",
+      "Airtable",
+      "Greenhouse",
+      "Canva"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "Inventory Control",
+      "Quality Assurance",
+      "Competitive Analysis",
+      "Data Analysis"
+    ],
+    "description": "Marketing Manager at SmartSystems, a financial services company with 1-10 employees. Works remotely and manages a team of 28 people. 15 years of experience in the field. Uses Slack, Google Meet, HubSpot for daily work. Specializes in Financial Modeling, Inventory Control, Quality Assurance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Brown",
+    "email": "rowan.brown163@example.com",
+    "role": "Grant Writer",
+    "industry": "Financial Services",
+    "company_name": "QuickLabs",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 36,
+    "experience_years": 5,
+    "tools": [
+      "Slack",
+      "Adobe XD",
+      "Mailchimp",
+      "Canvas"
+    ],
+    "skills": [
+      "Brand Development",
+      "Quality Assurance",
+      "Financial Modeling",
+      "Tax Planning"
+    ],
+    "description": "Grant Writer at QuickLabs, a financial services company with 50-200 employees. Works remotely and manages a team of 36 people. 5 years of experience in the field. Uses Slack, Adobe XD, Mailchimp for daily work. Specializes in Brand Development, Quality Assurance, Financial Modeling.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Williams",
+    "email": "avery.williams164@example.com",
+    "role": "Project Manager",
+    "industry": "Telecommunications",
+    "company_name": "QuickSoftware",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 30,
+    "experience_years": 13,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Google Analytics",
+      "BambooHR"
+    ],
+    "skills": [
+      "Healthcare Compliance",
+      "Prototyping",
+      "Relationship Building",
+      "Assessment Development",
+      "UX Design"
+    ],
+    "description": "Project Manager at QuickSoftware, a telecommunications company with 1-10 employees. Works remotely and manages a team of 30 people. 13 years of experience in the field. Uses Zoom, Google Meet, Google Analytics for daily work. Specializes in Healthcare Compliance, Prototyping, Relationship Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Williams",
+    "email": "cameron.williams165@example.com",
+    "role": "Creative Director",
+    "industry": "Media & Publishing",
+    "company_name": "FastSolutions",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 2,
+    "experience_years": 9,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Google Classroom",
+      "Cerner",
+      "Salesforce"
+    ],
+    "skills": [
+      "Python",
+      "Leadership",
+      "Product Strategy",
+      "Graphic Design"
+    ],
+    "description": "Creative Director at FastSolutions, a media & publishing company with 1-10 employees. Works remotely and manages a team of 2 people. 9 years of experience in the field. Uses Slack, Google Meet, Google Classroom for daily work. Specializes in Python, Leadership, Product Strategy.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Patel",
+    "email": "taylor.patel166@example.com",
+    "role": "Grant Writer",
+    "industry": "Consulting",
+    "company_name": "ProSystems",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 29,
+    "experience_years": 15,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Notion"
+    ],
+    "skills": [
+      "Risk Management",
+      "UX Design",
+      "Tax Planning",
+      "Communication",
+      "Medical Terminology"
+    ],
+    "description": "Grant Writer at ProSystems, a consulting company with 50-200 employees. Works remotely and manages a team of 29 people. 15 years of experience in the field. Uses Slack, Zoom, Notion for daily work. Specializes in Risk Management, UX Design, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Taylor Rodriguez",
+    "email": "taylor.rodriguez167@example.com",
+    "role": "Marketing Manager",
+    "industry": "Media & Publishing",
+    "company_name": "FastTech",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 14,
+    "experience_years": 7,
+    "tools": [
+      "Slack",
+      "HubSpot",
+      "Salesforce",
+      "Xero",
+      "Canvas"
+    ],
+    "skills": [
+      "Conflict Resolution",
+      "Risk Management",
+      "Graphic Design"
+    ],
+    "description": "Marketing Manager at FastTech, a media & publishing company with 1000+ employees. Works remotely and manages a team of 14 people. 7 years of experience in the field. Uses Slack, HubSpot, Salesforce for daily work. Specializes in Conflict Resolution, Risk Management, Graphic Design.",
+    "is_synthetic": true
+  },
+  {
+    "name": "River Taylor",
+    "email": "river.taylor168@example.com",
+    "role": "Brand Strategist",
+    "industry": "Healthcare",
+    "company_name": "BuildLabs",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 21,
+    "experience_years": 15,
+    "tools": [
+      "Slack",
+      "Marketo",
+      "Zoom"
+    ],
+    "skills": [
+      "Negotiation",
+      "Change Management",
+      "Audit"
+    ],
+    "description": "Brand Strategist at BuildLabs, a healthcare company with 1000+ employees. Works remotely and manages a team of 21 people. 15 years of experience in the field. Uses Slack, Marketo, Zoom for daily work. Specializes in Negotiation, Change Management, Audit.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Taylor",
+    "email": "skyler.taylor169@example.com",
+    "role": "Instructional Designer",
+    "industry": "Consumer Apps",
+    "company_name": "CreateSolutions",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 24,
+    "experience_years": 8,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "WooCommerce",
+      "Canva",
+      "Marketo"
+    ],
+    "skills": [
+      "Sales Strategy",
+      "Project Management",
+      "Medical Terminology"
+    ],
+    "description": "Instructional Designer at CreateSolutions, a consumer apps company with 500-1000 employees. Works remotely and manages a team of 24 people. 8 years of experience in the field. Uses Zoom, Google Meet, WooCommerce for daily work. Specializes in Sales Strategy, Project Management, Medical Terminology.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Williams",
+    "email": "dakota.williams170@example.com",
+    "role": "UX Designer",
+    "industry": "Financial Services",
+    "company_name": "FastSoftware",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 8,
+    "experience_years": 7,
+    "tools": [
+      "Slack",
+      "Adobe XD",
+      "Figma",
+      "Zoom"
+    ],
+    "skills": [
+      "Budget Management",
+      "Assessment Development",
+      "Negotiation"
+    ],
+    "description": "UX Designer at FastSoftware, a financial services company with 1000+ employees. Works remotely and manages a team of 8 people. 7 years of experience in the field. Uses Slack, Adobe XD, Figma for daily work. Specializes in Budget Management, Assessment Development, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Casey Smith",
+    "email": "casey.smith171@example.com",
+    "role": "Program Manager",
+    "industry": "Healthcare",
+    "company_name": "ProLabs",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 28,
+    "experience_years": 4,
+    "tools": [
+      "Google Meet",
+      "Sketch"
+    ],
+    "skills": [
+      "Process Improvement",
+      "Logistics",
+      "Tax Planning",
+      "Medical Terminology",
+      "Project Management"
+    ],
+    "description": "Program Manager at ProLabs, a healthcare company with 200-500 employees. Works in-office and manages a team of 28 people. 4 years of experience in the field. Uses Google Meet, Sketch for daily work. Specializes in Process Improvement, Logistics, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Lee",
+    "email": "riley.lee172@example.com",
+    "role": "Data Scientist",
+    "industry": "Enterprise Software",
+    "company_name": "SmartSoftware",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 31,
+    "experience_years": 11,
+    "tools": [
+      "Slack",
+      "Python",
+      "Jupyter",
+      "Figma"
+    ],
+    "skills": [
+      "Brand Development",
+      "Budget Management",
+      "Data Analysis"
+    ],
+    "description": "Data Scientist at SmartSoftware, a enterprise software company with 500-1000 employees. Works remotely and manages a team of 31 people. 11 years of experience in the field. Uses Slack, Python, Jupyter for daily work. Specializes in Brand Development, Budget Management, Data Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Anderson",
+    "email": "morgan.anderson173@example.com",
+    "role": "Content Marketing Manager",
+    "industry": "Consulting",
+    "company_name": "QuickTech",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 23,
+    "experience_years": 2,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Confluence"
+    ],
+    "skills": [
+      "Medical Terminology",
+      "UX Design",
+      "SQL",
+      "Customer Retention"
+    ],
+    "description": "Content Marketing Manager at QuickTech, a consulting company with 50-200 employees. Works remotely and manages a team of 23 people. 2 years of experience in the field. Uses Zoom, Slack, Confluence for daily work. Specializes in Medical Terminology, UX Design, SQL.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Garcia",
+    "email": "quinn.garcia174@example.com",
+    "role": "Store Manager",
+    "industry": "Telecommunications",
+    "company_name": "SmartSystems",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 27,
+    "experience_years": 15,
+    "tools": [
+      "Zoom",
+      "Google Meet"
+    ],
+    "skills": [
+      "Budget Management",
+      "Financial Analysis",
+      "Financial Modeling",
+      "Account Management",
+      "Tax Planning"
+    ],
+    "description": "Store Manager at SmartSystems, a telecommunications company with 1000+ employees. Works remotely and manages a team of 27 people. 15 years of experience in the field. Uses Zoom, Google Meet for daily work. Specializes in Budget Management, Financial Analysis, Financial Modeling.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Chen",
+    "email": "rowan.chen175@example.com",
+    "role": "Sales Manager",
+    "industry": "Fintech",
+    "company_name": "ProTech",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 14,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Intercom",
+      "HubSpot",
+      "Cerner"
+    ],
+    "skills": [
+      "Copywriting",
+      "Python",
+      "Relationship Building",
+      "Data Analysis",
+      "Communication"
+    ],
+    "description": "Sales Manager at ProTech, a fintech company with 1000+ employees. Works remotely and manages a team of 14 people. 11 years of experience in the field. Uses Zoom, Slack, Intercom for daily work. Specializes in Copywriting, Python, Relationship Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Anderson",
+    "email": "jordan.anderson176@example.com",
+    "role": "Project Manager",
+    "industry": "E-commerce",
+    "company_name": "CreateSystems",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 18,
+    "experience_years": 8,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Xero",
+      "Marketo",
+      "Trello"
+    ],
+    "skills": [
+      "Inventory Control",
+      "Clinical Research",
+      "Logistics",
+      "Video Production",
+      "Social Media Marketing"
+    ],
+    "description": "Project Manager at CreateSystems, a e-commerce company with 1-10 employees. Works remotely and manages a team of 18 people. 8 years of experience in the field. Uses Google Meet, Slack, Xero for daily work. Specializes in Inventory Control, Clinical Research, Logistics.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Thomas",
+    "email": "jamie.thomas177@example.com",
+    "role": "Financial Analyst",
+    "industry": "Retail",
+    "company_name": "QuickSolutions",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 42,
+    "experience_years": 9,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Google Analytics"
+    ],
+    "skills": [
+      "Social Media Marketing",
+      "Process Improvement",
+      "Stakeholder Management",
+      "Healthcare Compliance",
+      "Quality Assurance"
+    ],
+    "description": "Financial Analyst at QuickSolutions, a retail company with 1-10 employees. Works in-office and manages a team of 42 people. 9 years of experience in the field. Uses Google Meet, Zoom, Google Analytics for daily work. Specializes in Social Media Marketing, Process Improvement, Stakeholder Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Taylor",
+    "email": "skyler.taylor178@example.com",
+    "role": "Development Director",
+    "industry": "Media & Publishing",
+    "company_name": "ProTech",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 32,
+    "experience_years": 4,
+    "tools": [
+      "Zoom",
+      "Shopify",
+      "Notion"
+    ],
+    "skills": [
+      "Team Building",
+      "Customer Retention",
+      "Tax Planning"
+    ],
+    "description": "Development Director at ProTech, a media & publishing company with 1-10 employees. Works in-office and manages a team of 32 people. 4 years of experience in the field. Uses Zoom, Shopify, Notion for daily work. Specializes in Team Building, Customer Retention, Tax Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Cameron Smith",
+    "email": "cameron.smith179@example.com",
+    "role": "Academic Advisor",
+    "industry": "Pharmaceuticals",
+    "company_name": "FastInc",
+    "company_size": "50-200",
+    "remote": false,
+    "team_size": 23,
+    "experience_years": 15,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Bitbucket"
+    ],
+    "skills": [
+      "Strategic Planning",
+      "UI Design",
+      "Inventory Control",
+      "Assessment Development",
+      "Team Building"
+    ],
+    "description": "Academic Advisor at FastInc, a pharmaceuticals company with 50-200 employees. Works in-office and manages a team of 23 people. 15 years of experience in the field. Uses Google Meet, Slack, Bitbucket for daily work. Specializes in Strategic Planning, UI Design, Inventory Control.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Taylor",
+    "email": "rowan.taylor180@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "Consumer Apps",
+    "company_name": "FastLabs",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 25,
+    "experience_years": 7,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Greenhouse",
+      "Salesforce"
+    ],
+    "skills": [
+      "Communication",
+      "Financial Modeling",
+      "Inventory Control",
+      "Quality Assurance"
+    ],
+    "description": "Supply Chain Coordinator at FastLabs, a consumer apps company with 500-1000 employees. Works remotely and manages a team of 25 people. 7 years of experience in the field. Uses Zoom, Google Meet, Greenhouse for daily work. Specializes in Communication, Financial Modeling, Inventory Control.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jamie Davis",
+    "email": "jamie.davis181@example.com",
+    "role": "Financial Analyst",
+    "industry": "Education",
+    "company_name": "CreateLabs",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 49,
+    "experience_years": 5,
+    "tools": [
+      "Zoom",
+      "Asana"
+    ],
+    "skills": [
+      "Inventory Control",
+      "Product Strategy",
+      "Roadmap Planning"
+    ],
+    "description": "Financial Analyst at CreateLabs, a education company with 1000+ employees. Works remotely and manages a team of 49 people. 5 years of experience in the field. Uses Zoom, Asana for daily work. Specializes in Inventory Control, Product Strategy, Roadmap Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Jordan Anderson",
+    "email": "jordan.anderson182@example.com",
+    "role": "Account Manager",
+    "industry": "Non-Profit",
+    "company_name": "ProSystems",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 42,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Zoom",
+      "Power BI",
+      "Tableau",
+      "WooCommerce"
+    ],
+    "skills": [
+      "Graphic Design",
+      "Conflict Resolution",
+      "Strategic Planning",
+      "Clinical Research",
+      "Budget Management"
+    ],
+    "description": "Account Manager at ProSystems, a non-profit company with 50-200 employees. Works remotely and manages a team of 42 people. 12 years of experience in the field. Uses Google Meet, Zoom, Power BI for daily work. Specializes in Graphic Design, Conflict Resolution, Strategic Planning.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Lee",
+    "email": "morgan.lee183@example.com",
+    "role": "Marketing Manager",
+    "industry": "Manufacturing",
+    "company_name": "FastLabs",
+    "company_size": "1-10",
+    "remote": true,
+    "team_size": 47,
+    "experience_years": 13,
+    "tools": [
+      "Slack",
+      "Google Meet",
+      "Salesforce",
+      "HubSpot",
+      "Shopify",
+      "Intercom",
+      "Mixpanel"
+    ],
+    "skills": [
+      "Conflict Resolution",
+      "Account Management",
+      "Negotiation",
+      "Inventory Control"
+    ],
+    "description": "Marketing Manager at FastLabs, a manufacturing company with 1-10 employees. Works remotely and manages a team of 47 people. 13 years of experience in the field. Uses Slack, Google Meet, Salesforce for daily work. Specializes in Conflict Resolution, Account Management, Negotiation.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Taylor",
+    "email": "emerson.taylor184@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "SaaS",
+    "company_name": "FastSoftware",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 21,
+    "experience_years": 6,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Tableau"
+    ],
+    "skills": [
+      "Healthcare Compliance",
+      "Agile/Scrum",
+      "Inventory Control",
+      "Educational Technology"
+    ],
+    "description": "Supply Chain Coordinator at FastSoftware, a saas company with 10-50 employees. Works remotely and manages a team of 21 people. 6 years of experience in the field. Uses Zoom, Slack, Tableau for daily work. Specializes in Healthcare Compliance, Agile/Scrum, Inventory Control.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Avery Taylor",
+    "email": "avery.taylor185@example.com",
+    "role": "Grant Writer",
+    "industry": "Consulting",
+    "company_name": "CreateLabs",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 4,
+    "experience_years": 13,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Google Workspace",
+      "HubSpot",
+      "Adobe XD"
+    ],
+    "skills": [
+      "Healthcare Compliance",
+      "Copywriting",
+      "Supply Chain Management",
+      "Financial Modeling",
+      "A/B Testing"
+    ],
+    "description": "Grant Writer at CreateLabs, a consulting company with 200-500 employees. Works remotely and manages a team of 4 people. 13 years of experience in the field. Uses Slack, Zoom, Google Workspace for daily work. Specializes in Healthcare Compliance, Copywriting, Supply Chain Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Martinez",
+    "email": "emerson.martinez186@example.com",
+    "role": "Customer Success Manager",
+    "industry": "Consumer Apps",
+    "company_name": "BuildInc",
+    "company_size": "200-500",
+    "remote": false,
+    "team_size": 29,
+    "experience_years": 11,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "QuickBooks",
+      "SAP",
+      "Coda"
+    ],
+    "skills": [
+      "Customer Retention",
+      "SEO/SEM",
+      "Patient Care",
+      "Quality Assurance",
+      "Process Improvement"
+    ],
+    "description": "Customer Success Manager at BuildInc, a consumer apps company with 200-500 employees. Works in-office and manages a team of 29 people. 11 years of experience in the field. Uses Google Meet, Slack, QuickBooks for daily work. Specializes in Customer Retention, SEO/SEM, Patient Care.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Lee",
+    "email": "rowan.lee187@example.com",
+    "role": "Engineering Manager",
+    "industry": "Developer Tools",
+    "company_name": "ProSystems",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 26,
+    "experience_years": 8,
+    "tools": [
+      "Google Meet",
+      "GitHub",
+      "Jira",
+      "Greenhouse"
+    ],
+    "skills": [
+      "Accounting",
+      "Financial Analysis",
+      "Supply Chain Management",
+      "Conflict Resolution",
+      "Product Strategy"
+    ],
+    "description": "Engineering Manager at ProSystems, a developer tools company with 200-500 employees. Works remotely and manages a team of 26 people. 8 years of experience in the field. Uses Google Meet, GitHub, Jira for daily work. Specializes in Accounting, Financial Analysis, Supply Chain Management.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Johnson",
+    "email": "emerson.johnson188@example.com",
+    "role": "Merchandiser",
+    "industry": "Fintech",
+    "company_name": "ProSystems",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 19,
+    "experience_years": 12,
+    "tools": [
+      "Zoom",
+      "Slack",
+      "Canva"
+    ],
+    "skills": [
+      "Financial Analysis",
+      "Accounting",
+      "Communication"
+    ],
+    "description": "Merchandiser at ProSystems, a fintech company with 500-1000 employees. Works in-office and manages a team of 19 people. 12 years of experience in the field. Uses Zoom, Slack, Canva for daily work. Specializes in Financial Analysis, Accounting, Communication.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Emerson Davis",
+    "email": "emerson.davis189@example.com",
+    "role": "Account Manager",
+    "industry": "Productivity",
+    "company_name": "CreateTech",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 36,
+    "experience_years": 15,
+    "tools": [
+      "Google Meet",
+      "Power BI",
+      "Monday.com"
+    ],
+    "skills": [
+      "Inventory Control",
+      "Curriculum Design",
+      "Copywriting",
+      "User Research"
+    ],
+    "description": "Account Manager at CreateTech, a productivity company with 500-1000 employees. Works remotely and manages a team of 36 people. 15 years of experience in the field. Uses Google Meet, Power BI, Monday.com for daily work. Specializes in Inventory Control, Curriculum Design, Copywriting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Davis",
+    "email": "skyler.davis190@example.com",
+    "role": "Store Manager",
+    "industry": "Fintech",
+    "company_name": "ProInc",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 19,
+    "experience_years": 1,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "Adobe XD",
+      "Lever"
+    ],
+    "skills": [
+      "JavaScript",
+      "SQL",
+      "Market Research"
+    ],
+    "description": "Store Manager at ProInc, a fintech company with 1000+ employees. Works remotely and manages a team of 19 people. 1 years of experience in the field. Uses Slack, Zoom, Adobe XD for daily work. Specializes in JavaScript, SQL, Market Research.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Rowan Anderson",
+    "email": "rowan.anderson191@example.com",
+    "role": "Supply Chain Coordinator",
+    "industry": "Consumer Apps",
+    "company_name": "SmartLabs",
+    "company_size": "50-200",
+    "remote": true,
+    "team_size": 49,
+    "experience_years": 6,
+    "tools": [
+      "Zoom",
+      "Monday.com",
+      "Google Workspace"
+    ],
+    "skills": [
+      "Python",
+      "Project Management",
+      "Financial Analysis"
+    ],
+    "description": "Supply Chain Coordinator at SmartLabs, a consumer apps company with 50-200 employees. Works remotely and manages a team of 49 people. 6 years of experience in the field. Uses Zoom, Monday.com, Google Workspace for daily work. Specializes in Python, Project Management, Financial Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Smith",
+    "email": "skyler.smith192@example.com",
+    "role": "Grant Writer",
+    "industry": "Consulting",
+    "company_name": "FastInc",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 12,
+    "experience_years": 7,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "Confluence",
+      "Workday",
+      "Zoom"
+    ],
+    "skills": [
+      "JavaScript",
+      "Account Management",
+      "Python",
+      "Supply Chain Management"
+    ],
+    "description": "Grant Writer at FastInc, a consulting company with 1000+ employees. Works remotely and manages a team of 12 people. 7 years of experience in the field. Uses Google Meet, Slack, Confluence for daily work. Specializes in JavaScript, Account Management, Python.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Riley Williams",
+    "email": "riley.williams193@example.com",
+    "role": "Program Manager",
+    "industry": "Productivity",
+    "company_name": "CreateTech",
+    "company_size": "1000+",
+    "remote": true,
+    "team_size": 5,
+    "experience_years": 11,
+    "tools": [
+      "Slack",
+      "Asana",
+      "Sketch"
+    ],
+    "skills": [
+      "Educational Technology",
+      "Account Management",
+      "Accounting",
+      "Conflict Resolution"
+    ],
+    "description": "Program Manager at CreateTech, a productivity company with 1000+ employees. Works remotely and manages a team of 5 people. 11 years of experience in the field. Uses Slack, Asana, Sketch for daily work. Specializes in Educational Technology, Account Management, Accounting.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Johnson",
+    "email": "dakota.johnson194@example.com",
+    "role": "Content Marketing Manager",
+    "industry": "Pharmaceuticals",
+    "company_name": "BuildTech",
+    "company_size": "500-1000",
+    "remote": false,
+    "team_size": 35,
+    "experience_years": 11,
+    "tools": [
+      "Slack",
+      "Zoom",
+      "QuickBooks",
+      "Confluence"
+    ],
+    "skills": [
+      "Communication",
+      "Content Strategy",
+      "Team Building",
+      "Tax Planning"
+    ],
+    "description": "Content Marketing Manager at BuildTech, a pharmaceuticals company with 500-1000 employees. Works in-office and manages a team of 35 people. 11 years of experience in the field. Uses Slack, Zoom, QuickBooks for daily work. Specializes in Communication, Content Strategy, Team Building.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Skyler Lee",
+    "email": "skyler.lee195@example.com",
+    "role": "Healthcare Administrator",
+    "industry": "Hospitality",
+    "company_name": "ProTech",
+    "company_size": "500-1000",
+    "remote": true,
+    "team_size": 14,
+    "experience_years": 12,
+    "tools": [
+      "Google Meet",
+      "Salesforce",
+      "Lever"
+    ],
+    "skills": [
+      "Change Management",
+      "Roadmap Planning",
+      "Data Analysis",
+      "A/B Testing",
+      "Sales Strategy"
+    ],
+    "description": "Healthcare Administrator at ProTech, a hospitality company with 500-1000 employees. Works remotely and manages a team of 14 people. 12 years of experience in the field. Uses Google Meet, Salesforce, Lever for daily work. Specializes in Change Management, Roadmap Planning, Data Analysis.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Sage Taylor",
+    "email": "sage.taylor196@example.com",
+    "role": "Grant Writer",
+    "industry": "Education",
+    "company_name": "SmartTech",
+    "company_size": "10-50",
+    "remote": true,
+    "team_size": 44,
+    "experience_years": 5,
+    "tools": [
+      "Slack",
+      "Monday.com",
+      "Jira"
+    ],
+    "skills": [
+      "SQL",
+      "Supply Chain Management",
+      "Healthcare Compliance"
+    ],
+    "description": "Grant Writer at SmartTech, a education company with 10-50 employees. Works remotely and manages a team of 44 people. 5 years of experience in the field. Uses Slack, Monday.com, Jira for daily work. Specializes in SQL, Supply Chain Management, Healthcare Compliance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Quinn Johnson",
+    "email": "quinn.johnson197@example.com",
+    "role": "Content Marketing Manager",
+    "industry": "Hospitality",
+    "company_name": "QuickLabs",
+    "company_size": "1000+",
+    "remote": false,
+    "team_size": 33,
+    "experience_years": 11,
+    "tools": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams"
+    ],
+    "skills": [
+      "Data Analysis",
+      "Tax Planning",
+      "Leadership"
+    ],
+    "description": "Content Marketing Manager at QuickLabs, a hospitality company with 1000+ employees. Works in-office and manages a team of 33 people. 11 years of experience in the field. Uses Zoom, Google Meet, Microsoft Teams for daily work. Specializes in Data Analysis, Tax Planning, Leadership.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Morgan Johnson",
+    "email": "morgan.johnson198@example.com",
+    "role": "Software Engineer",
+    "industry": "Marketing Tech",
+    "company_name": "CreateSolutions",
+    "company_size": "200-500",
+    "remote": true,
+    "team_size": 7,
+    "experience_years": 15,
+    "tools": [
+      "Google Meet",
+      "Jira",
+      "GitLab",
+      "WooCommerce"
+    ],
+    "skills": [
+      "UX Design",
+      "Competitive Analysis",
+      "Quality Assurance",
+      "Agile/Scrum"
+    ],
+    "description": "Software Engineer at CreateSolutions, a marketing tech company with 200-500 employees. Works remotely and manages a team of 7 people. 15 years of experience in the field. Uses Google Meet, Jira, GitLab for daily work. Specializes in UX Design, Competitive Analysis, Quality Assurance.",
+    "is_synthetic": true
+  },
+  {
+    "name": "Dakota Rodriguez",
+    "email": "dakota.rodriguez199@example.com",
+    "role": "Program Manager",
+    "industry": "Non-Profit",
+    "company_name": "QuickTech",
+    "company_size": "1-10",
+    "remote": false,
+    "team_size": 2,
+    "experience_years": 14,
+    "tools": [
+      "Google Meet",
+      "Slack",
+      "WooCommerce"
+    ],
+    "skills": [
+      "Competitive Analysis",
+      "Product Strategy",
+      "Inventory Control",
+      "JavaScript",
+      "Customer Retention"
+    ],
+    "description": "Program Manager at QuickTech, a non-profit company with 1-10 employees. Works in-office and manages a team of 2 people. 14 years of experience in the field. Uses Google Meet, Slack, WooCommerce for daily work. Specializes in Competitive Analysis, Product Strategy, Inventory Control.",
+    "is_synthetic": true
+  }
+]

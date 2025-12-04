@@ -131,21 +131,187 @@ backend/
 
 ## 🔍 Core IR Components
 
-### BM25 Retriever
+### 1. Prompt Interpreter (`prompt_interpreter.py`)
 
-Implements probabilistic keyword-based ranking using the BM25 algorithm.
+**Extracts structured filters from natural language queries.**
 
-### Sentence-BERT Retriever
+Capabilities:
 
-Uses pre-trained transformer models to generate semantic embeddings and perform similarity search via Supabase pgvector.
+- Role detection with abbreviation support (PM → Product Manager, UX → UX Designer, dev → Software Engineer)
+- Remote work detection (remote, WFH, work from home, telecommute)
+- Tool extraction (case-sensitive matching of 30+ common tools)
+- Experience range extraction (3-5 years, 5+years, with X years)
+- Team size extraction (manages 5-10 people, team of 7)
+- Company size detection (startup, enterprise, small, medium, large)
 
-### Hybrid Retriever
+Example:
 
-Combines BM25 and SBERT results using Reciprocal Rank Fusion (RRF) for optimal ranking.
+```python
+query = "Find remote PMs using Trello with 3-5 years experience"
+result = prompt_interpreter.extract_intent(query)
+# Returns: {
+#   "query": "Find remote PMs using Trello with 3-5 years experience",
+#   "filters": {
+#     "remote": True,
+#     "role": "Product Manager",
+#     "tools": ["Trello"],
+#     "min_experience_years": 3,
+#     "max_experience_years": 5
+#   }
+# }
+```
 
-### Prompt Interpreter
+### 2. Query Processor (`query_processor.py`)
 
-Extracts structured filters (role, tools, remote status, etc.) from natural language queries.
+**Normalizes and expands search queries for better recall.**
+
+Features:
+
+- Text normalization (lowercase, trim, remove punctuation)
+- Synonym expansion (PM → product manager, dev → developer)
+- Abbreviation expansion (WFH → remote work from home, k8s → kubernetes)
+- Term extraction for match explanation
+
+Example:
+
+```python
+query = "WFH PMs using Figma"
+result = query_processor.process_query(query)
+# Returns: {
+#   "original_query": "WFH PMs using Figma",
+#   "normalized_query": "wfh pms using figma",
+#   "expanded_query": "wfh remote work from home pms product manager using figma",
+#   "terms": ["wfh", "remote", "work", "from", "home", "pms", "product", "manager", "using", "figma"]
+# }
+```
+
+### 3. BM25 Retriever (`bm25_retriever.py`)
+
+**Implements probabilistic keyword-based ranking with smart field weighting.**
+
+Key Features:
+
+- BM25 algorithm (Okapi BM25 with k1=1.5, b=0.75)
+- Weighted field importance:
+  - Role: 3x weight (most important)
+  - Tools: 2x weight (very important)
+  - Skills: 1.5x weight (important)
+  - Company/Industry: 1x weight (normal)
+  - Description: 0.5x weight (less important, context)
+- Post-retrieval filtering by role, tools, remote, team size, company size, experience
+- NLTK-based tokenization with stopword removal
+
+### 4. Sentence-BERT Retriever (`sbert_retriever.py`)
+
+**Uses pre-trained transformer models for semantic similarity search.**
+
+- Model: `all-MiniLM-L6-v2` (384-dimensional embeddings)
+- Stores embeddings in Supabase with pgvector extension
+- Cosine similarity search via database
+- Supports native database-level filtering
+
+### 5. Hybrid Retriever (`hybrid_retriever.py`)
+
+**Combines BM25 and SBERT using Reciprocal Rank Fusion.**
+
+Algorithm:
+
+```
+For each result r in BM25 ∪ SBERT:
+    score(r) = Σ 1 / (k + rank_i(r))
+    where k = 60 (RRF constant)
+```
+
+Benefits:
+
+- Balances lexical and semantic signals
+- No need to normalize scores between methods
+- Robust to outliers and score scale differences
+
+### 6. Relevance Explainer (`relevance_explainer.py`)
+
+**Generates human-readable explanations for search results.**
+
+Provides up to 5 match reasons per result:
+
+- "Role: Product Manager"
+- "Uses Trello, Figma"
+- "Remote worker"
+- "Skills: UX Design, Python"
+- "5 years of experience"
+- "Manages team of 8"
+
+### 7. Search Service (`search_service.py`)
+
+**Orchestrates the complete search pipeline.**
+
+Pipeline:
+
+1. Interpret prompt → extract filters
+2. Process query → normalize & expand
+3. Merge explicit + extracted filters
+4. Execute hybrid search (BM25 + SBERT + RRF)
+5. Enrich results with match explanations
+
+Returns:
+
+- Ranked participants with scores
+- Match reasons for each result
+- Query analysis (expanded query, extracted filters)
+- Performance metrics (retrieval time)
+
+### 8. Recommendation Service (`recommendation_service.py`)
+
+**Generates personalized search query suggestions based on user behavior.**
+
+Features:
+
+- **Behavior Analysis:**
+
+  - Fetches recent 20 searches from `search_history` table
+  - Fetches all saved participants with full profile data
+  - Extracts roles from both searches (keyword matching) and saved participants
+  - Weights saved participant roles 2x higher than search mentions
+
+- **Pattern Detection:**
+
+  - Top 3-4 roles (from search queries + saved participants)
+  - Top 3 tools (from saved participants)
+  - Remote preference (if >60% remote → suggest remote queries)
+  - Experience level (average years of saved participants)
+  - Company size preference (most common sizes)
+  - Top 2 industries
+
+- **Query Generation:**
+
+  - Creates 8+ candidate queries using 5 template types:
+    - `"{remote} {role}"` - e.g., "Remote Software Engineer"
+    - `"{role} using {tool}"` - e.g., "UX Designer using Figma"
+    - `"{role} with {exp}+ years experience"` - e.g., "PM with 5+ years"
+    - `"{role} at {size} companies"` - e.g., "Engineer at startups"
+    - `"{role} in {industry}"` - e.g., "Analyst in Healthcare"
+  - Rotates through tools and industries for variety
+  - Shuffles templates on each request
+  - Shuffles final query list before returning top 4
+
+- **Personalization Threshold:**
+
+  - Requires 3+ searches OR 1+ saved participant
+  - Falls back to generic defaults for new users
+
+- **Auto-Refresh:**
+  - Suggestions update after each search
+  - Shows different combinations on each page refresh
+  - Ensures diverse recommendations
+
+**Role Keyword Detection (20+ keywords):**
+
+- "pm" / "product manager" → Product Manager
+- "ux" / "designer" → UX Designer
+- "engineer" / "developer" → Software Engineer
+- "nurse" → Nurse Practitioner
+- "analyst" → Business Analyst
+- And more...
 
 ## 🧪 Testing
 
@@ -171,6 +337,7 @@ pytest tests/test_retrieval.py
 ### Search (Researcher)
 
 - `POST /researcher/search` - Search for participants
+- `GET /researcher/search-suggestions` - Get personalized query recommendations
 - `GET /researcher/searches` - Get search history
 - `GET /researcher/saved` - Get saved participants
 - `POST /researcher/save/{participant_id}` - Save a participant

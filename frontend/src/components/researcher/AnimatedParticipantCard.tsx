@@ -24,6 +24,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useAuth } from "@/context/AuthContext";
 import { saveParticipant, unsaveParticipant } from "@/services/api/researcher";
+import { getMatchLabel } from "@/lib/matchUtils";
 
 interface Participant {
   id: string;
@@ -118,9 +119,7 @@ export function AnimatedParticipantCard({
     }
   };
 
-  const relevancePercent = participant.score
-    ? Math.round(participant.score * 100)
-    : 0;
+  const matchInfo = participant.score ? getMatchLabel(participant.score) : null;
 
   // List view rendering
   if (viewMode === "list") {
@@ -164,10 +163,12 @@ export function AnimatedParticipantCard({
                   <h3 className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">
                     {participant.name}
                   </h3>
-                  {relevancePercent > 0 && (
-                    <Badge className="bg-primary text-primary-foreground border-0 text-xs flex-shrink-0">
+                  {matchInfo && (
+                    <Badge
+                      className={`${matchInfo.bgClass} ${matchInfo.colorClass} ${matchInfo.borderClass} border text-xs flex-shrink-0 font-semibold`}
+                    >
                       <Sparkles className="h-3 w-3 mr-1 fill-current" />
-                      {relevancePercent}% match
+                      {matchInfo.label}
                     </Badge>
                   )}
                 </div>
@@ -274,10 +275,12 @@ export function AnimatedParticipantCard({
                 <span className="text-sm font-medium">{participant.role}</span>
               </div>
             </div>
-            {relevancePercent > 0 && (
-              <Badge className="bg-primary text-primary-foreground border-0 hover:bg-primary/90 transition-colors font-semibold">
+            {matchInfo && (
+              <Badge
+                className={`${matchInfo.bgClass} ${matchInfo.colorClass} ${matchInfo.borderClass} border hover:opacity-90 transition-all font-semibold`}
+              >
                 <Sparkles className="h-3 w-3 mr-1 fill-current" />
-                {relevancePercent}% match
+                {matchInfo.label}
               </Badge>
             )}
           </div>

@@ -68,9 +68,13 @@ When companies develop new products, one of the biggest challenges is finding th
 
 - **Hybrid Search Engine**: Combines BM25 (keyword) and Sentence-BERT (semantic) retrieval with Reciprocal Rank Fusion
 - **Natural Language Queries**: Simply describe your ideal participant in plain English
-- **Advanced Filters**: Filter by role, company size, remote work, tools, and more
+- **Intelligent Query Understanding**: Automatically extracts filters from natural language (e.g., "remote PMs" → remote=true, role="Product Manager")
+- **Query Expansion**: Expands abbreviations and synonyms (e.g., "WFH" → "remote work from home")
+- **Advanced Filters**: Filter by role, company size, remote work, tools, experience years, team size
+- **Match Explanations**: See why each participant matches your query with highlighted reasons
+- **Smart Field Weighting**: Role and tools weighted 3x and 2x higher than other fields
+- **Categorical Match Labels**: Results labeled as "Excellent Match", "Great Match", "Good Match" etc. with color coding
 - **Search History**: Track and revisit all your past searches
-- **Relevance Scores**: See match percentages for each candidate
 
 ### AI-Powered Features
 
@@ -78,6 +82,7 @@ When companies develop new products, one of the biggest challenges is finding th
 - **Smart Outreach Generation**: Bulk generate personalized recruitment emails using Gemini AI
 - **AI Research Strategy**: View reasoning behind AI's search approach with collapsible sections
 - **Draft Management**: Save, edit, and reuse email drafts across projects
+- **Personalized Search Recommendations**: Intelligent query suggestions based on your search history and saved participants, with automatic diversity rotation
 
 ### Project Management
 
@@ -441,53 +446,135 @@ npm run type-check
 
 ## Architecture
 
-### Information Retrieval Pipeline
+### Enhanced Information Retrieval Pipeline
 
 ```
-User Query: "Remote PMs using Trello"
+User Query: "Remote PMs using Trello with 3-5 years experience"
          ↓
 ┌────────────────────────────────────────┐
 │   1. Prompt Interpreter                │
-│      Extracts: role="PM", remote=true, │
-│                tools=["Trello"]        │
+│      Extracts structured filters:      │
+│      • role = "Product Manager"        │
+│      • remote = true                   │
+│      • tools = ["Trello"]              │
+│      • min_experience = 3 years        │
+│      • max_experience = 5 years        │
 └────────────────────────────────────────┘
          ↓
 ┌────────────────────────────────────────┐
-│   2. Parallel Retrieval                │
+│   2. Query Preprocessing               │
+│      • Normalize: lowercase, trim      │
+│      • Expand: "PM" → "product manager"│
+│      • Expand: "WFH" → "remote work"   │
+│      Result: enriched search terms     │
+└────────────────────────────────────────┘
+         ↓
+┌────────────────────────────────────────┐
+│   3. Parallel Hybrid Retrieval         │
 │                                        │
 │   ┌──────────────┐  ┌──────────────┐ │
 │   │ BM25         │  │ SBERT        │ │
 │   │ (Lexical)    │  │ (Semantic)   │ │
+│   │ + Filters    │  │ + Filters    │ │
 │   │ Score: 0.85  │  │ Score: 0.92  │ │
 │   └──────────────┘  └──────────────┘ │
+│                                        │
+│   Field Weighting in BM25:            │
+│   • Role: 3x weight                   │
+│   • Tools: 2x weight                  │
+│   • Skills: 1.5x weight               │
 └────────────────────────────────────────┘
          ↓
 ┌────────────────────────────────────────┐
-│   3. Rank Fusion (RRF)                 │
-│      Combines both scores              │
-│      Final ranking                     │
+│   4. Reciprocal Rank Fusion (RRF)     │
+│      Combines BM25 + SBERT rankings    │
+│      Formula: score = Σ 1/(k + rank)   │
+│      Produces unified ranking          │
 └────────────────────────────────────────┘
          ↓
 ┌────────────────────────────────────────┐
-│   4. Results + AI Enhancement          │
+│   5. Results + Match Explanations      │
 │      • Ranked participants             │
 │      • Relevance scores                │
-│      • Generated outreach              │
-│      • Project management              │
+│      • Match reasons:                  │
+│        - "Role: Product Manager"       │
+│        - "Uses Trello, Asana"          │
+│        - "Remote worker"               │
+│        - "4 years of experience"       │
+│      • AI-generated outreach           │
 └────────────────────────────────────────┘
 ```
 
 ### Technology Responsibilities
 
-| Component               | What It Does                      | What YOU Implement    |
-| ----------------------- | --------------------------------- | --------------------- |
-| **BM25**                | Keyword-based ranking             | Full algorithm        |
-| **Sentence-BERT**       | Generate embeddings               | Model usage & scoring |
-| **Supabase + pgvector** | Store vectors, compute similarity | Infrastructure only   |
-| **Rank Fusion**         | Combine BM25 + SBERT              | RRF algorithm         |
-| **Prompt Interpreter**  | Extract query intent              | NLP logic             |
+| Component               | What It Does                      | What YOU Implement       |
+| ----------------------- | --------------------------------- | ------------------------ |
+| **BM25**                | Keyword-based ranking             | Full algorithm + filters |
+| **Sentence-BERT**       | Generate embeddings               | Model usage & scoring    |
+| **Supabase + pgvector** | Store vectors, compute similarity | Infrastructure only      |
+| **Rank Fusion**         | Combine BM25 + SBERT              | RRF algorithm            |
+| **Prompt Interpreter**  | Extract query intent              | Full NLP logic           |
+| **Query Processor**     | Normalize & expand queries        | Synonym expansion        |
+| **Relevance Explainer** | Generate match reasons            | Explanation algorithm    |
 
-**Key Point:** Supabase provides infrastructure. The information retrieval algorithms (BM25, rank fusion, query understanding) are implemented in Python.
+**Key Point:** Supabase provides infrastructure. The information retrieval algorithms (BM25 with weighted fields, rank fusion, query understanding, synonym expansion, and match explanations) are all implemented in Python.
+
+### Search Improvements Summary
+
+**What Makes Our Search Smart:**
+
+1. **Natural Language Understanding**: Extracts 8+ types of filters from plain English
+
+   - Role detection with abbreviations (PM → Product Manager, UX → UX Designer)
+   - Remote work indicators (WFH, remote, work from home)
+   - Tool mentions (case-insensitive matching)
+   - Experience ranges (3-5 years, 5+ years)
+   - Team size (manages 5-10 people)
+   - Company size (startup, enterprise)
+
+2. **Query Enhancement**: Makes searches more comprehensive
+
+   - Synonym expansion (dev → developer, engineer)
+   - Abbreviation expansion (WFH → remote work from home)
+   - Maintains both original and expanded terms
+
+3. **Smart Ranking**: Prioritizes important fields
+
+   - Role matches weighted 3x higher
+   - Tool matches weighted 2x higher
+   - Skills matches weighted 1.5x higher
+   - Ensures job title is most important signal
+
+4. **Explainable Results**: Shows why participants match
+
+   - Lists top 5 match reasons per result
+   - Highlights matched tools, skills, and criteria
+   - Transparent ranking decisions
+
+5. **Categorical Match Labels**: User-friendly quality indicators
+
+   - "Excellent Match" (green) - Top tier results (score ≥ 0.028)
+   - "Great Match" (blue) - Very good matches (score ≥ 0.023)
+   - "Good Match" (teal) - Solid matches (score ≥ 0.018)
+   - "Fair Match" (amber) - Decent matches (score ≥ 0.013)
+   - "Possible Match" (gray) - Lower tier matches
+   - Replaces confusing RRF percentages with clear labels
+
+6. **Precise Filtering**: Post-retrieval refinement
+
+   - Applies all extracted filters after initial ranking
+   - Supports AND logic for multiple criteria
+   - Case-insensitive, flexible matching
+
+7. **Personalized Query Recommendations**: Behavior-based suggestion system
+   - Analyzes search history (queries + frequency)
+   - Learns from saved participants (roles + tools + preferences)
+   - Extracts patterns: top roles, common tools, remote preference, experience level
+   - Generates diverse query suggestions using multiple templates
+   - Shuffles and rotates suggestions for variety on each page load
+   - Threshold: 3+ searches OR 1+ saved participant triggers personalization
+   - Graceful fallback to generic suggestions for new users
+   - Auto-refreshes after each search to reflect new behavior
 
 ---
 
@@ -498,7 +585,8 @@ User Query: "Remote PMs using Trello"
 All core functionality has been implemented and tested:
 
 - Hybrid search engine (BM25 + SBERT)
-- Natural language query processing
+- Natural language query processing with smart filters
+- Personalized search query recommendations
 - AI-powered project creation with Gemini
 - Bulk outreach email generation
 - Project management (CRUD operations)

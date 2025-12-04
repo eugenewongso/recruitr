@@ -20,7 +20,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { searchParticipants, logSearch, createNotification } from "@/services/api/researcher";
+import {
+  searchParticipants,
+  logSearch,
+  createNotification,
+} from "@/services/api/researcher";
+import { getSearchSuggestions } from "@/services/api/recommendations";
 import {
   Pagination,
   PaginationContent,
@@ -59,6 +64,11 @@ export default function SearchInterface() {
   const [totalPages, setTotalPages] = useState(0);
   const itemsPerPage = 20;
 
+  // Search suggestions state
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(true);
+  const [isPersonalized, setIsPersonalized] = useState(false);
+
   const handleSearch = async (page: number = 1) => {
     if (!query.trim()) return;
 
@@ -66,7 +76,7 @@ export default function SearchInterface() {
     setError(null);
     setHasSearched(true);
     setCurrentPage(page);
-    
+
     // Only clear results and selections on new search (page 1)
     if (page === 1) {
       setResults([]);
@@ -112,6 +122,9 @@ export default function SearchInterface() {
             top_result_ids: mappedResults.slice(0, 10).map((r) => r.id),
           });
           console.log("✅ Search logged to history successfully");
+
+          // Refresh suggestions based on new search behavior
+          refreshSuggestions(false);
         } catch (logError) {
           console.error("❌ Failed to log search:", logError);
         }
@@ -123,7 +136,9 @@ export default function SearchInterface() {
             message: `Found ${response.total_count} matches for "${query}"`,
             type: "success",
             related_entity_type: "search",
-          }).catch((err) => console.error("Failed to create notification:", err));
+          }).catch((err) =>
+            console.error("Failed to create notification:", err)
+          );
         }
       }
     } catch (err: any) {
@@ -179,9 +194,14 @@ export default function SearchInterface() {
   // AND handle pre-filled query from search history
   useEffect(() => {
     if (location.state) {
-      const { reopenOutreachModal, participants, loadedDraft, query: historyQuery, filters } =
-        location.state as any;
-      
+      const {
+        reopenOutreachModal,
+        participants,
+        loadedDraft,
+        query: historyQuery,
+        filters,
+      } = location.state as any;
+
       // Handle modal reopening
       if (reopenOutreachModal && participants) {
         setModalParticipants(participants);
@@ -190,7 +210,7 @@ export default function SearchInterface() {
         // Clear the state to avoid reopening on refresh
         window.history.replaceState({}, document.title);
       }
-      
+
       // Handle query from search history
       if (historyQuery) {
         setQuery(historyQuery);
@@ -204,10 +224,44 @@ export default function SearchInterface() {
     }
   }, [location]);
 
+  // Reusable function to fetch/refresh search suggestions
+  const refreshSuggestions = async (showLoading: boolean = true) => {
+    try {
+      if (showLoading) {
+        setIsLoadingSuggestions(true);
+      }
+      const response = await getSearchSuggestions(4);
+      setSuggestions(response.suggestions);
+      setIsPersonalized(response.is_personalized);
+      console.log(
+        `✨ Suggestions ${showLoading ? "loaded" : "refreshed"} (personalized: ${response.is_personalized})`
+      );
+    } catch (error) {
+      console.error("Failed to fetch search suggestions:", error);
+      // Fallback to default suggestions on error
+      setSuggestions([
+        "Remote professionals with 5+ years experience",
+        "Managers at mid-size companies",
+        "Specialists using Salesforce",
+        "Recent graduates with relevant skills",
+      ]);
+      setIsPersonalized(false);
+    } finally {
+      if (showLoading) {
+        setIsLoadingSuggestions(false);
+      }
+    }
+  };
+
+  // Fetch personalized search suggestions on mount
+  useEffect(() => {
+    refreshSuggestions(true);
+  }, []);
+
   // Handle page change
   const handlePageChange = (page: number) => {
     handleSearch(page);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   // Generate page numbers to display
@@ -418,25 +472,39 @@ export default function SearchInterface() {
       {/* Example Queries - Show only before first search */}
       {!hasSearched && !isSearching && results.length === 0 && (
         <div className="mb-8">
-          <h3 className="text-sm font-medium text-muted-foreground mb-3">
-            Try these example searches:
+          <h3 className="text-sm font-medium text-muted-foreground mb-3 flex items-center gap-2">
+            {isPersonalized ? (
+              <>
+                <Sparkles className="h-4 w-4 text-primary" />
+                Suggested for you:
+              </>
+            ) : (
+              "Try these example searches:"
+            )}
           </h3>
           <div className="flex flex-wrap gap-2">
-            {[
-              "Remote product managers using Trello",
-              "UX designers with 5+ years experience",
-              "Software engineers at startups",
-              "Marketing professionals in SaaS companies",
-            ].map((example) => (
-              <Badge
-                key={example}
-                variant="outline"
-                className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors text-sm py-2 px-4"
-                onClick={() => setQuery(example)}
-              >
-                {example}
-              </Badge>
-            ))}
+            {isLoadingSuggestions ? (
+              // Loading skeleton
+              <>
+                {[1, 2, 3, 4].map((i) => (
+                  <div
+                    key={i}
+                    className="h-9 w-48 bg-muted animate-pulse rounded-full"
+                  />
+                ))}
+              </>
+            ) : (
+              suggestions.map((suggestion) => (
+                <Badge
+                  key={suggestion}
+                  variant="outline"
+                  className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors text-sm py-2 px-4"
+                  onClick={() => setQuery(suggestion)}
+                >
+                  {suggestion}
+                </Badge>
+              ))
+            )}
           </div>
         </div>
       )}
@@ -529,11 +597,7 @@ export default function SearchInterface() {
                   Matches &gt;50%
                 </Button>
                 <div className="h-6 w-px bg-border mx-1" />
-                <Button
-                  size="sm"
-                  variant="outline"
-                  onClick={selectAll}
-                >
+                <Button size="sm" variant="outline" onClick={selectAll}>
                   Select All
                 </Button>
                 {selectedIds.size > 0 && (
@@ -568,19 +632,31 @@ export default function SearchInterface() {
                 <PaginationContent>
                   <PaginationItem>
                     <PaginationPrevious
-                      onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                      onClick={() =>
+                        handlePageChange(Math.max(1, currentPage - 1))
+                      }
                       disabled={currentPage === 1 || isSearching}
-                      className={currentPage === 1 || isSearching ? "pointer-events-none opacity-50" : "cursor-pointer"}
+                      className={
+                        currentPage === 1 || isSearching
+                          ? "pointer-events-none opacity-50"
+                          : "cursor-pointer"
+                      }
                     />
                   </PaginationItem>
-                  
+
                   {renderPageNumbers()}
-                  
+
                   <PaginationItem>
                     <PaginationNext
-                      onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                      onClick={() =>
+                        handlePageChange(Math.min(totalPages, currentPage + 1))
+                      }
                       disabled={currentPage === totalPages || isSearching}
-                      className={currentPage === totalPages || isSearching ? "pointer-events-none opacity-50" : "cursor-pointer"}
+                      className={
+                        currentPage === totalPages || isSearching
+                          ? "pointer-events-none opacity-50"
+                          : "cursor-pointer"
+                      }
                     />
                   </PaginationItem>
                 </PaginationContent>

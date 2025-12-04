@@ -102,44 +102,53 @@ class BM25Retriever(BaseRetriever):
     
     def _create_document(self, participant: Dict[str, Any]) -> str:
         """
-        Create a searchable document from a single participant.
+        Create a searchable document from a single participant with field weighting.
         
         Combines: role, industry, company, tools, skills, description
+        
+        Field weights (by repetition):
+        - Role: 3x (most important)
+        - Tools: 2x (very important)
+        - Skills: 1.5x (important)
+        - Company/Industry: 1x (normal)
+        - Description: 0.5x (less important)
         
         Args:
             participant: Participant dictionary
             
         Returns:
-            Searchable text document
+            Searchable text document with weighted fields
         """
         parts = []
         
-        # Add role (most important - repeat for emphasis)
+        # Add role (3x weight - most important)
         if participant.get('role'):
-            parts.append(participant['role'])
-            parts.append(participant['role'])  # Double weight
+            parts.extend([participant['role']] * 3)
         
-        # Add industry and company
+        # Add industry and company (1x weight)
         if participant.get('industry'):
             parts.append(participant['industry'])
         if participant.get('company_name'):
             parts.append(participant['company_name'])
         
-        # Add work type
+        # Add work type (1x weight)
         if participant.get('remote'):
             parts.append('remote')
         else:
             parts.append('onsite office')
         
-        # Add tools (very important for matching)
+        # Add tools (2x weight - very important for matching)
         if participant.get('tools'):
-            parts.extend(participant['tools'])
+            parts.extend(participant['tools'] * 2)
         
-        # Add skills
+        # Add skills (1.5x weight - important)
         if participant.get('skills'):
-            parts.extend(participant['skills'])
+            skills = participant['skills']
+            parts.extend(skills)
+            # Add half of skills again for 1.5x total weight
+            parts.extend(skills[:len(skills)//2 + 1])
         
-        # Add description
+        # Add description (0.5x weight - less important, naturally weighted lower due to length)
         if participant.get('description'):
             parts.append(participant['description'])
         
@@ -180,13 +189,22 @@ class BM25Retriever(BaseRetriever):
         
         return tokens
     
-    def search(self, query: str, top_k: int = 50) -> List[Dict[str, Any]]:
+    def search(self, query: str, top_k: int = 50, filters: Dict[str, Any] = None) -> List[Dict[str, Any]]:
         """
-        Search for participants using BM25.
+        Search for participants using BM25 with optional filtering.
         
         Args:
             query: Search query string (e.g., "Product Manager Figma remote")
             top_k: Number of results to return
+            filters: Optional filters dict with keys:
+                - remote (bool): Filter by remote/onsite
+                - tools (list): Filter by required tools
+                - role (str): Filter by role
+                - min_team_size (int): Minimum team size
+                - max_team_size (int): Maximum team size
+                - company_size (list): Company size ranges
+                - min_experience_years (int): Minimum years of experience
+                - max_experience_years (int): Maximum years of experience
             
         Returns:
             List of dicts with participant_id and score:
@@ -221,6 +239,10 @@ class BM25Retriever(BaseRetriever):
         # Sort by score (descending)
         results.sort(key=lambda x: x['score'], reverse=True)
         
+        # Apply filters if provided
+        if filters:
+            results = self._apply_filters(results, filters)
+        
         # Add ranks and limit to top_k
         for rank, result in enumerate(results[:top_k], start=1):
             result['rank'] = rank
@@ -233,6 +255,98 @@ class BM25Retriever(BaseRetriever):
             logger.info("BM25 returned 0 results (no matches found)")
         
         return top_results
+    
+    def _apply_filters(self, results: List[Dict[str, Any]], filters: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """
+        Apply post-retrieval filters to results.
+        
+        Args:
+            results: List of search results with participant_id
+            filters: Dictionary of filter criteria
+            
+        Returns:
+            Filtered list of results
+        """
+        # Create a mapping of participant_id to participant data for quick lookup
+        participants_dict = {p['id']: p for p in self.participants}
+        
+        filtered_results = []
+        for result in results:
+            participant = participants_dict.get(result['participant_id'])
+            if not participant:
+                continue
+            
+            # Apply each filter
+            if not self._matches_filters(participant, filters):
+                continue
+            
+            filtered_results.append(result)
+        
+        return filtered_results
+    
+    def _matches_filters(self, participant: Dict[str, Any], filters: Dict[str, Any]) -> bool:
+        """
+        Check if a participant matches all filter criteria.
+        
+        Args:
+            participant: Participant dictionary
+            filters: Filter criteria
+            
+        Returns:
+            True if participant matches all filters
+        """
+        # Remote filter
+        if 'remote' in filters:
+            if participant.get('remote') != filters['remote']:
+                return False
+        
+        # Tools filter (participant must have all required tools)
+        if 'tools' in filters and filters['tools']:
+            participant_tools = participant.get('tools', [])
+            if not participant_tools:
+                return False
+            # Check if participant has all required tools (case-insensitive)
+            participant_tools_lower = [t.lower() for t in participant_tools]
+            for required_tool in filters['tools']:
+                if required_tool.lower() not in participant_tools_lower:
+                    return False
+        
+        # Role filter (case-insensitive partial match)
+        if 'role' in filters and filters['role']:
+            participant_role = participant.get('role', '').lower()
+            filter_role = filters['role'].lower()
+            if filter_role not in participant_role and participant_role not in filter_role:
+                return False
+        
+        # Team size filter
+        if 'min_team_size' in filters:
+            team_size = participant.get('team_size', 0)
+            if team_size < filters['min_team_size']:
+                return False
+        
+        if 'max_team_size' in filters:
+            team_size = participant.get('team_size', 0)
+            if team_size > filters['max_team_size']:
+                return False
+        
+        # Company size filter
+        if 'company_size' in filters and filters['company_size']:
+            participant_size = participant.get('company_size')
+            if participant_size not in filters['company_size']:
+                return False
+        
+        # Experience years filter
+        if 'min_experience_years' in filters:
+            experience = participant.get('experience_years', 0)
+            if experience < filters['min_experience_years']:
+                return False
+        
+        if 'max_experience_years' in filters:
+            experience = participant.get('experience_years', 0)
+            if experience > filters['max_experience_years']:
+                return False
+        
+        return True
     
     def get_name(self) -> str:
         """Return the name of this retriever."""

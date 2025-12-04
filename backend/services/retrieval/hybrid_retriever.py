@@ -52,9 +52,8 @@ class HybridRetriever:
         logger.info(f"Hybrid search query: '{query}'")
         
         # 1. Get BM25 results (get 2x top_k to allow for fusion overlaps)
-        # BM25 doesn't support filters natively yet, so we filter post-retrieval if needed
-        # or rely on fusion to downgrade irrelevant results
-        bm25_results = self.bm25.search(query, top_k=top_k * 2)
+        # BM25 now supports post-retrieval filtering
+        bm25_results = self.bm25.search(query, top_k=top_k * 2, filters=filters)
         
         # 2. Get SBERT results
         # SBERT supports filters natively in the DB query
