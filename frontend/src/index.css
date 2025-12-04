@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar globally but allow scrolling */
+* {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Opera */
+}
+
+html,
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@layer base {
+  :root {
+    /* White & Amber Theme - Primary amber accent (#d97706) - More professional */
+    --primary: 32 95% 44%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary amber tints */
+    --secondary: 39 100% 96%;
+    --secondary-foreground: 235 50% 9%;
+
+    /* Accent - lighter amber */
+    --accent: 39 100% 88%;
+    --accent-foreground: 235 50% 9%;
+
+    /* Muted - soft amber tint */
+    --muted: 39 30% 97%;
+    --muted-foreground: 235 15% 45%;
+
+    /* White surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 235 50% 9%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 235 50% 9%;
+
+    /* Subtle borders */
+    --border: 39 20% 92%;
+    --input: 39 20% 94%;
+    --ring: 39 100% 50%;
+
+    /* White background, deep navy-black text (#0b0d21) */
+    --background: 0 0% 100%;
+    --foreground: 235 50% 9%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Increased border radius for rounded corners */
+    --radius: 0.75rem;
+
+    /* Chart colors with amber theme - updated */
+    --chart-1: 32 95% 44%;
+    --chart-2: 35 95% 50%;
+    --chart-3: 43 96% 56%;
+    --chart-4: 28 85% 42%;
+    --chart-5: 45 93% 62%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white text-foreground font-sans antialiased;
+  }
+
+  * {
+    @apply border-border;
+  }
+}
+
+@layer components {
+  /* Button Styles - Amber accent with ample spacing */
+  .btn {
+    @apply px-6 py-3 rounded-xl font-medium transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-primary-foreground hover:opacity-90 focus:ring-primary shadow-sm;
+  }
+
+  .btn-secondary {
+    @apply btn bg-secondary text-secondary-foreground hover:bg-accent focus:ring-primary;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-primary text-primary hover:bg-accent focus:ring-primary;
+  }
+
+  /* Card Styles - White surfaces with subtle shadows */
+  .card {
+    @apply bg-card rounded-2xl shadow-sm border border-border p-8;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:shadow-md;
+  }
+
+  /* Input Styles - Rounded with ample padding */
+  .input {
+    @apply w-full px-4 py-3 rounded-xl border border-input focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-all;
+  }
+
+  /* Badge Styles - Soft amber tints */
+  .badge {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium;
+  }
+
+  .badge-primary {
+    @apply badge bg-accent text-accent-foreground;
+  }
+
+  .badge-secondary {
+    @apply badge bg-secondary text-secondary-foreground;
+  }
+
+  .badge-success {
+    @apply badge bg-green-100 text-green-800;
+  }
+}
+
+@layer utilities {
+  /* Animations */
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-in;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+
+  /* Custom Scrollbar - Amber accent */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-secondary;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-primary/30 rounded-full;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/50;
+  }
+
+  /* Glassmorphism */
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Loading Spinner - Amber accent */
+.spinner {
+  border: 3px solid hsl(var(--primary) / 0.1);
+  border-radius: 50%;
+  border-top: 3px solid hsl(var(--primary));
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Skeleton Loading - Soft amber tint */
+.skeleton {
+  @apply animate-pulse bg-muted rounded-xl;
+}
+
+/* Custom color variables for chart components - Amber theme */
+:root {
+  --color-white: 255 255 255;
+  --color-black: 11 13 33;
+
+  /* Amber palette - Updated to use more professional shade */
+  --color-amber-50: 255 251 235;
+  --color-amber-100: 254 243 199;
+  --color-amber-200: 253 230 138;
+  --color-amber-400: 251 191 36;
+  --color-amber-500: 245 158 11;
+  --color-amber-600: 217 119 6; /* Primary accent */
+  --color-amber-700: 180 83 9;
+  --color-amber-800: 146 64 14;
+  --color-amber-950: 69 26 3;
+
+  /* Supporting colors */
+  --color-green-50: 240 253 244;
+  --color-green-100: 220 252 231;
+  --color-green-500: 34 197 94;
+  --color-green-600: 22 163 74;
+  --color-green-800: 22 101 52;
+  --color-green-950: 5 46 22;
+
+  --color-red-50: 254 242 242;
+  --color-red-600: 220 38 38;
+  --color-red-700: 185 28 28;
+  --color-red-950: 69 10 10;
+
+  /* Chart-specific colors - Amber theme */
+  --color-success-accent: rgb(var(--color-green-500));
+  --color-success-foreground: rgb(var(--color-white));
+  --color-success-soft: rgb(var(--color-green-100));
+
+  --color-warning-accent: rgb(var(--color-amber-500));
+  --color-warning-foreground: rgb(var(--color-white));
+  --color-warning-soft: rgb(var(--color-amber-100));
+
+  --color-info-accent: rgb(var(--color-amber-600));
+  --color-info-foreground: rgb(var(--color-white));
+  --color-info-soft: rgb(var(--color-amber-100));
+
+  --color-destructive-accent: rgb(var(--color-red-600));
+  --color-destructive-soft: rgb(var(--color-red-50));
+
+  --color-primary-accent: rgb(var(--color-amber-600));
+  --color-primary-soft: rgb(var(--color-amber-50));
+}
